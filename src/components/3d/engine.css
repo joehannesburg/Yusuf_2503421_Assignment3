@@ -1,0 +1,41 @@
+.engine-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+
+}
+
+.engine-overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    /* background-color: rgba(255, 255, 255); */
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.engine-overlay h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.engine-overlay p {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+  
+  .engineCanvas {
+
+    background-color: rgba(0, 159, 199, 0.867);
+    border-top: 2px solid rgb(255, 255, 255);
+    
+  }
+  

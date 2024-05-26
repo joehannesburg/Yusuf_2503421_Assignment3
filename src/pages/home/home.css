@@ -1,0 +1,242 @@
+.home-page {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #235998;
+}
+
+.overlay {
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    background: rgba(57, 124, 148, 0.4);
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+}
+
+video {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
+
+
+.planeImg {
+    width: 50%;
+    height: auto;
+    /* object-fit: cover; */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.welcomeTxt{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    left: 50;
+    width: 80vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    /* margin-top: 10vh; */
+}
+.link-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-top: 2rem; Adjusted margin-top */
+    margin-bottom: 2rem;
+    width: 80%;
+    z-index: 100;
+}
+
+.link-box {
+    background: rgb(218, 237, 255);
+    border: 0.2rem solid black;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 calc(25% - 2rem);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Ensure text color is inherited */
+    display: block; /* Make the link a block element */
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effects */
+}
+
+.link-box:hover {
+    transform: translate(-0.25rem, -0.25rem);
+    box-shadow: 0.5rem 0.4rem #000000, 0.5rem 0.5rem 0.5rem 0.1rem rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgb(159, 209, 255);
+}
+
+.link-box img {
+    width: 100%;
+    height: auto;
+    background: #235998;
+    border: 0.2rem solid black;
+    border-radius: 0.4rem;
+}
+
+.link-box h2 {
+    font-size: 1.8rem;
+    margin: 1rem 0 0.5rem;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.link-box p {
+    font-size: 1rem;
+    color: #000000;
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 1500px) {
+    
+
+    .planeImg {
+        width: 50%;
+    }
+
+    video{
+        height: 50vh;
+    }
+
+    .overlay{
+        height: 50vh;
+    }
+
+    .link-box {
+        flex: 1 1 calc(33% - 2rem);
+    }
+}
+
+@media (max-width: 1200px) {
+    
+
+    .planeImg {
+        width: 50%;
+        
+    }
+
+    video{
+        height: 50vh;
+    }
+
+    .overlay{
+        height: 50vh;
+    }
+
+
+    .link-box {
+        flex: 1 1 calc(33% - 2rem);
+    }
+}
+
+@media (max-width: 992px) {
+  
+
+    .planeImg {
+        width: 70%;
+    }
+    video{
+        height: 40vh;
+    }
+
+    .overlay{
+        height: 40vh;
+    }
+
+    .welcomeTxt{
+        font-size: 1.6rem;
+    }
+
+    .link-box {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+@media (max-width: 768px) {
+   
+
+    .planeImg {
+        width: 80%;
+    }
+    video{
+        height: 35vh;
+    }
+    .overlay{
+        height: 35vh;
+    }
+
+    .welcomeTxt{
+        font-size: 1.4rem;
+    }
+
+    .link-box {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 576px) {
+   
+
+    .planeImg {
+        width: 90%;
+    }
+
+    video{
+        height: 30vh;
+    }
+    .overlay{
+        height: 30vh;
+    }
+
+    .welcomeTxt{
+        font-size: 0.9rem;
+    }
+
+    .link-box {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 350px) {
+   
+
+    .planeImg {
+        width: 90%;
+    }
+    video{
+        height: 30vh;
+    }
+    .overlay{
+        height: 30vh;
+    }
+
+    .welcomeTxt{
+        font-size: 0.7rem;
+    }
+    .link-box {
+        flex: 1 1 100%;
+    }
+}

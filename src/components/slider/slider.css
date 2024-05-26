@@ -1,0 +1,226 @@
+/* .cont{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: for better visibility */
+    .cont h1{
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+     
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 45vh;
+    margin: 2rem auto;
+    position: relative;
+    overflow: hidden; /* Ensure content does not overflow the container */
+    
+  }
+
+  
+  
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255) ;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .slide:hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
+  
+  .slide figcaption{
+    top: 1rem;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 45px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+
+  .arrow:hover{
+    color: black;
+  }
+  
+  .arrow--left {
+    left: 10px; /* Adjusted for better positioning */
+  }
+  
+  .arrow--right {
+    right: 10px; /* Adjusted for better positioning */
+  }
+  
+  .dots-container {
+    position: absolute;
+    bottom: 10px; /* Positioned at the bottom */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .dot {
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff; /* Ensure dots are visible */
+  }
+  
+.dot.active {
+    color: #235998;
+}
+
+.dot:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1200px) {
+    .container2 {
+      width: 60vw;
+      height: 50vh;
+    }
+  
+    .slide figcaption {
+      font-size: 1.2rem;
+    }
+  
+    .arrow {
+      font-size: 40px;
+    }
+  
+    .dot {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .container2 {
+      width: 80vw;
+      height: 45vh;
+    }
+  
+    .slide figcaption {
+      font-size: 1rem;
+    }
+  
+    .arrow {
+      font-size: 35px;
+    }
+  
+    .dot {
+      font-size: 13px;
+    }
+
+    .cont h1{
+        font-size: 1.5rem;
+      }
+    }
+  
+  
+  @media screen and (max-width: 768px) {
+    .container2 {
+      width: 80vw;
+      height: 40vh;
+    }
+  
+    .slide figcaption {
+      font-size: 0.8rem;
+    }
+  
+    .arrow {
+      font-size: 30px;
+    }
+  
+    .dot {
+      font-size: 12px;
+    }
+
+    .cont h1{
+        font-size: 1.3rem;
+      }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container2 {
+      width: 80vw;
+      height: 30vh;
+    }
+  
+    .slide figcaption {
+      font-size: 0.6rem;
+    }
+  
+    .arrow {
+      font-size: 25px;
+    }
+  
+    .dot {
+      font-size: 11px;
+    }
+
+    .cont h1{
+        font-size: 1rem;
+      }
+  }
+
+  @media screen and (max-width: 395px) {
+    .container2 {
+      width: 95vw;
+      height: 20vh;
+    }
+  
+    .slide figcaption {
+      font-size: 0.6rem;
+    }
+  
+    .arrow {
+      font-size: 25px;
+    }
+  
+    .dot {
+      font-size: 11px;
+    }
+
+    .cont h1{
+        font-size: 1rem;
+      }
+  }

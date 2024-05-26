@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgb(241, 247, 255);
+    color: white;
+    text-align: left;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0rem;
+    font-size: 1rem;
+}
+
+.footer p {
+    margin: 0;
+    margin-left: 2vw;
+    color: black;
+}
