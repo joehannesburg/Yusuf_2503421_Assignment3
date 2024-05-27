@@ -5,9 +5,9 @@ import './home.css'
 //asset imports
 import video from '../../assets/clouds.mp4'
 import img from '../../assets/test.png'
-import aboutImg from '../../assets/about.png'; // Ensure the correct path to your image
-import designImg from '../../assets/design.png'; // Ensure the correct path to your image
-import theoryImg from '../../assets/theory.png'; // Ensure the correct path to your image
+import aboutImg from '../../assets/about.png'; 
+import designImg from '../../assets/design.png'; 
+import theoryImg from '../../assets/theory.png'; 
 import artImg from '../../assets/art.png';
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
          <video src={video} muted autoPlay loop type="video/mp4"></video>
 
          <section className='homeContent container'>
-         {/* <BoardingPass /> */}
+         
          <img className='planeImg' src={img} alt="airplane/png" />
          <h1 className='welcomeTxt'>Prepare for takeoff as we soar through the clouds of creativity and innovation. This site is your runway to explore the intricate designs, theoretical insights, and artistic inspirations behind my net art project, all fueled by the wonders of aviation. Buckle up and join me on this high-flying adventure!
 
@@ -27,7 +27,7 @@ function Home() {
 
          </section>
 
-      
+      {/* link boxes */}
 <section className="link-boxes">
     <Link to="/about" className="link-box">
         <img src={aboutImg} alt="About" className="box-image" />

@@ -1,0 +1,52 @@
+.art-page {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #235998;
+    
+
+}
+
+.overlay6 {
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    background: rgba(57, 124, 148, 0.5);
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+}
+
+.artImg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+
+}
+
+.art-intro {
+    color: rgb(255, 255, 255);
+    /* font-size: 2rem; */
+    text-align: center;
+    width: 60vw;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+    top: 45;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.art-intro h1{
+    font-size: 10rem;
+    margin-bottom: 0;
+   
+}

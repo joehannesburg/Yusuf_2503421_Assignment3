@@ -7,6 +7,8 @@ import About from './pages/about/About'
 import Design from './pages/design/Design'
 import Wireframe from './pages/wireframes/Wireframe'
 import Style from './pages/styleguide/Style'
+import Theory from './pages/theory/Theory'
+import Art from './pages/art/Art'
 
 //Components
 import Navbar from './components/navbar/navbar';
@@ -26,8 +28,8 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
            <Route path="/design" element={<Design />} />
-          {/* <Route path="/theory" element={<ConfirmationPage />} />
-          <Route path="/art" element={<ConfirmationPage />} />   */}
+          <Route path="/theory" element={<Theory/>} />
+          <Route path="/art" element={<Art/>} />  
 
           {/* Routing for sub-pages */}
           

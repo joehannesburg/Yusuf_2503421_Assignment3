@@ -8,11 +8,13 @@ function Navbar() {
   const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
 
+  
   const handleLinkClick = () => {
     // Uncheck the checkbox to close the menu
     document.getElementById('check').checked = false;
 };
 
+//changes background colour when scrolling
 const changeBackgroundColor = () => {
   if (window.scrollY > 50) {
     setScrolled(true);

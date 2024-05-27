@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './wireframe.css';
 
+//Image Imports
 import wireframe1 from '../../assets/home-wireframe.png';
 import wireframe2 from '../../assets/about-wireframe.png';
 import wireframe3 from '../../assets/design-wireframe.png';

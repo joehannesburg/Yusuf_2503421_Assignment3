@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './styleguide.css';
 
+//Image Imports
 import Colour from '../../assets/colour.png';
 import Inspo1 from '../../assets/inspiration1.jpeg';
 import Inspo2 from '../../assets/inspiration2.jpeg';
@@ -21,7 +22,7 @@ function Style() {
         </article>
         <article className="styleguide">
           <h2>Colour Palette:</h2>
-          <p>Primary Colorus</p>
+          <p>Primary Colours</p>
           <p> - Sky Blue (#235998): This rich, deep blue is like the vast expanse of the sky on a clear day. It's calming, yet full of energy, just like the feeling of looking out the window of an airplane.</p>
           <p> - Ocean Blue (#00a2c9): Inspired by the sparkling waters below, this shade of blue adds a refreshing touch of coolness to the palette, reminding you of the endless possibilities that lie ahead.</p>
           <p>Accent Colours</p>
