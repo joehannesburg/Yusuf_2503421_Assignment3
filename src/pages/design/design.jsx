@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './design.css'
 
+import ScrollTop from '../../components/scroll/ScrollTop';
 
 
 //asset imports
@@ -35,7 +36,7 @@ function Design() {
     </Link>
     </section>
     
-
+        <ScrollTop />
      
       </main>
     );

@@ -4,6 +4,9 @@ import './art.css'
 //asset imports
 import background from '../../assets/art.jpg'
 
+import ScrollTop from '../../components/scroll/ScrollTop';
+
+
 function Art() {
     return (
         <main className="art-page">
@@ -14,6 +17,7 @@ function Art() {
         <h1>Coming Soon!</h1>
         
       </section>
+      <ScrollTop />
         </main>
     );
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './about.css'
 import Slider from '../../components/slider/slider';
 // import Engine from '../../components/3d/engineModel'
@@ -7,6 +6,9 @@ import Slider from '../../components/slider/slider';
 
 //asset imports
 import img from '../../assets/clouds.jpg'
+
+
+import ScrollTop from '../../components/scroll/ScrollTop';
 
 
 function About() {
@@ -25,7 +27,7 @@ function About() {
       <Slider/>
      
     
-
+        <ScrollTop/>
      
       </main>
     );

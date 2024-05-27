@@ -9,6 +9,9 @@ import wireframe2 from '../../assets/about-wireframe.png';
 import wireframe3 from '../../assets/design-wireframe.png';
 import wireframe4 from '../../assets/sub-wireframe.png';
 
+import ScrollTop from '../../components/scroll/ScrollTop';
+
+
 
 function Wireframes() {
   return (
@@ -49,6 +52,8 @@ function Wireframes() {
       </section>
       {/* Button to navigate to styleguide page */}
       <Link to="/design/styleguide" className="styleguide-button">STYLEGUIDE</Link>
+
+      <ScrollTop/>
     </main>
   );
 }

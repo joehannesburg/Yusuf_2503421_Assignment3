@@ -8,6 +8,9 @@ import Colour from '../../assets/colour.png';
 import Inspo1 from '../../assets/inspiration1.jpeg';
 import Inspo2 from '../../assets/inspiration2.jpeg';
 
+import ScrollTop from '../../components/scroll/ScrollTop';
+
+
 function Style() {
   return (
     <main className="styleguide-page">
@@ -63,6 +66,8 @@ function Style() {
       </section>
       {/* Button to navigate to styleguide page */}
       <Link to="/design/wireframes" className="styleguide-button">WIREFRAMES</Link>
+
+        <ScrollTop />
     </main>
   );
 }

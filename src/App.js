@@ -21,8 +21,8 @@ function App() {
     <React.Fragment>
     <HashRouter basename="/">
         <Navbar />
+        
         <Routes>
-
           {/* Routing for main pages */}
     
           <Route path="/" element={<Home/>} />

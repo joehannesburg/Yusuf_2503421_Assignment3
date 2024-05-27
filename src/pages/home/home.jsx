@@ -10,6 +10,9 @@ import designImg from '../../assets/design.png';
 import theoryImg from '../../assets/theory.png'; 
 import artImg from '../../assets/art.png';
 
+import ScrollTop from '../../components/scroll/ScrollTop';
+
+
 function Home() {
     return (
         
@@ -51,7 +54,7 @@ function Home() {
     </Link>
 </section>
     
-      
+      <ScrollTop/>
     </main>
 
    

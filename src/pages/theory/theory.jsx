@@ -10,6 +10,9 @@ import essayImg from '../../assets/essay.jpg'
 import reflImg from '../../assets/reflection.jpg'
 import netImg from '../../assets/net-art.jpg'
 
+import ScrollTop from '../../components/scroll/ScrollTop';
+
+
 
 function Theory() {
     return (
@@ -42,7 +45,7 @@ function Theory() {
     </Link>
     </section>
     
-
+        <ScrollTop />
      
       </main>
     );
