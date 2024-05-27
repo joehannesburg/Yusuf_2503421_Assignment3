@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Yusuf_2503421_Assignment3/static/css/main.95d724ed.css",
+    "main.js": "/Yusuf_2503421_Assignment3/static/js/main.e50c2ac8.js",
+    "static/js/453.22c0cc38.chunk.js": "/Yusuf_2503421_Assignment3/static/js/453.22c0cc38.chunk.js",
+    "static/media/clouds.mp4": "/Yusuf_2503421_Assignment3/static/media/clouds.8c649387b85f2316bc67.mp4",
+    "static/media/clouds.jpg": "/Yusuf_2503421_Assignment3/static/media/clouds.2908ea24049ba2aed430.jpg",
+    "static/media/slide4.png": "/Yusuf_2503421_Assignment3/static/media/slide4.1429f6b6fb0148363858.png",
+    "static/media/slide1.png": "/Yusuf_2503421_Assignment3/static/media/slide1.2fff2f475bc0b0f355ee.png",
+    "static/media/slide6.png": "/Yusuf_2503421_Assignment3/static/media/slide6.cc24ca5379e68dfce8d8.png",
+    "static/media/slide5.png": "/Yusuf_2503421_Assignment3/static/media/slide5.60dd62a0b85d086a8662.png",
+    "static/media/slide3.png": "/Yusuf_2503421_Assignment3/static/media/slide3.34b0a2db7b156942dd77.png",
+    "static/media/test.png": "/Yusuf_2503421_Assignment3/static/media/test.996fbd6c8d3717534f3c.png",
+    "static/media/slide2.png": "/Yusuf_2503421_Assignment3/static/media/slide2.8b06a5d4e0a1b5842f4d.png",
+    "static/media/art.png": "/Yusuf_2503421_Assignment3/static/media/art.c39e452da1d3664ede31.png",
+    "static/media/theory.png": "/Yusuf_2503421_Assignment3/static/media/theory.4c8eca0f8361dea444d1.png",
+    "static/media/about.png": "/Yusuf_2503421_Assignment3/static/media/about.0275b0a367118485bcd9.png",
+    "static/media/design.png": "/Yusuf_2503421_Assignment3/static/media/design.867f1376fa009e844752.png",
+    "index.html": "/Yusuf_2503421_Assignment3/index.html",
+    "main.95d724ed.css.map": "/Yusuf_2503421_Assignment3/static/css/main.95d724ed.css.map",
+    "main.e50c2ac8.js.map": "/Yusuf_2503421_Assignment3/static/js/main.e50c2ac8.js.map",
+    "453.22c0cc38.chunk.js.map": "/Yusuf_2503421_Assignment3/static/js/453.22c0cc38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95d724ed.css",
+    "static/js/main.e50c2ac8.js"
+  ]
+}
