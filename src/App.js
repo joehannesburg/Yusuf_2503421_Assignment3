@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 //Pages
 import Home from './pages/home/Home';
@@ -14,7 +14,7 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <React.Fragment>
-    <BrowserRouter basename="/Yusuf_2503421_Assignment3">
+    <HashRouter basename="/Yusuf_2503421_Assignment3">
         <Navbar />
         <Routes>
           {/* Routing for pages */}
@@ -27,7 +27,7 @@ function App() {
           <Route path="/art" element={<ConfirmationPage />} />  */}
           
         </Routes>
-        </BrowserRouter>
+      </HashRouter>
         <Footer/>
     </React.Fragment>
   );
