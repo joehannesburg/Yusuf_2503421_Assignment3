@@ -19,9 +19,9 @@ function App() {
         <Routes>
           {/* Routing for pages */}
       
-          <Route index element = {<Home/>}/>
-          <Route path="/" exact element={<Home/>} />
-          <Route path="/about" exact element={<About/>} />
+          {/* <Route index element = {<Home/>}/> */}
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
           {/* <Route path="/design" element={<TicketPurchase />} />
           <Route path="/theory" element={<ConfirmationPage />} />
           <Route path="/art" element={<ConfirmationPage />} />  */}
