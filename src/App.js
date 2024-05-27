@@ -4,6 +4,9 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 //Pages
 import Home from './pages/home/Home';
 import About from './pages/about/About'
+import Design from './pages/design/Design'
+import Wireframe from './pages/wireframes/Wireframe'
+import Style from './pages/styleguide/Style'
 
 //Components
 import Navbar from './components/navbar/navbar';
@@ -17,15 +20,20 @@ function App() {
     <HashRouter basename="/">
         <Navbar />
         <Routes>
-          {/* Routing for pages */}
-      
-          {/* <Route index element = {<Home/>}/> */}
+
+          {/* Routing for main pages */}
+    
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
-          {/* <Route path="/design" element={<TicketPurchase />} />
-          <Route path="/theory" element={<ConfirmationPage />} />
-          <Route path="/art" element={<ConfirmationPage />} />  */}
+           <Route path="/design" element={<Design />} />
+          {/* <Route path="/theory" element={<ConfirmationPage />} />
+          <Route path="/art" element={<ConfirmationPage />} />   */}
+
+          {/* Routing for sub-pages */}
           
+          <Route path="/design/wireframes" element={<Wireframe />} />
+          <Route path="/design/styleguide" element={<Style />} />
+
         </Routes>
       </HashRouter>
         <Footer/>
