@@ -14,7 +14,7 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <React.Fragment>
-    <HashRouter basename="/Yusuf_2503421_Assignment3">
+    <HashRouter basename="/">
         <Navbar />
         <Routes>
           {/* Routing for pages */}
