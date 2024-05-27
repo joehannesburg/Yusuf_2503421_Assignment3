@@ -2,7 +2,7 @@
   "name": "assignment-3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joehannesburg.github.io/Yusuf_2503421_Assignment3/",
+  "homepage": "https://joehannesburg.github.io/Yusuf_2503421_Assignment3",
   
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
