@@ -2,6 +2,7 @@
   "name": "assignment-3",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joehannesburg.github.io/Yusuf_2503421_Assignment3",
   
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -21,15 +22,16 @@
     "three": "^0.164.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://joehannesburg.github.io/Yusuf_2503421_Assignment3",
+ 
 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+   
     
   },
   "eslintConfig": {
