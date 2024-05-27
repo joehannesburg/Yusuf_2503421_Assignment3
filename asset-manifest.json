@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/Yusuf_2503421_Assignment3/static/css/main.10d7d392.css",
-    "main.js": "/Yusuf_2503421_Assignment3/static/js/main.ac65af2c.js",
+    "main.css": "/Yusuf_2503421_Assignment3/static/css/main.7f0a5397.css",
+    "main.js": "/Yusuf_2503421_Assignment3/static/js/main.62f9dd78.js",
     "static/js/453.22c0cc38.chunk.js": "/Yusuf_2503421_Assignment3/static/js/453.22c0cc38.chunk.js",
     "static/media/clouds.mp4": "/Yusuf_2503421_Assignment3/static/media/clouds.8c649387b85f2316bc67.mp4",
+    "static/media/essay.jpg": "/Yusuf_2503421_Assignment3/static/media/essay.c3c788474aec7e472efc.jpg",
+    "static/media/net-art.jpg": "/Yusuf_2503421_Assignment3/static/media/net-art.e053b577da80442ff4a8.jpg",
+    "static/media/art.jpg": "/Yusuf_2503421_Assignment3/static/media/art.a0203610a7041e6f4f94.jpg",
     "static/media/sky.jpg": "/Yusuf_2503421_Assignment3/static/media/sky.52d2771aa393ebeefd99.jpg",
     "static/media/styleguide.jpg": "/Yusuf_2503421_Assignment3/static/media/styleguide.931e2157ae54644ac8d3.jpg",
     "static/media/sky2.jpg": "/Yusuf_2503421_Assignment3/static/media/sky2.4b0cdd4dc454c23aee4b.jpg",
     "static/media/wireframes.jpg": "/Yusuf_2503421_Assignment3/static/media/wireframes.0f238cf41c55a0e93084.jpg",
+    "static/media/wings.jpg": "/Yusuf_2503421_Assignment3/static/media/wings.dd00baf5ba8694b709c5.jpg",
     "static/media/clouds.jpg": "/Yusuf_2503421_Assignment3/static/media/clouds.2908ea24049ba2aed430.jpg",
     "static/media/slide4.png": "/Yusuf_2503421_Assignment3/static/media/slide4.1429f6b6fb0148363858.png",
+    "static/media/reflection.jpg": "/Yusuf_2503421_Assignment3/static/media/reflection.80c52b6f0ad391b19a03.jpg",
     "static/media/slide1.png": "/Yusuf_2503421_Assignment3/static/media/slide1.2fff2f475bc0b0f355ee.png",
     "static/media/window.jpg": "/Yusuf_2503421_Assignment3/static/media/window.21a916c240ccade13b24.jpg",
     "static/media/slide6.png": "/Yusuf_2503421_Assignment3/static/media/slide6.cc24ca5379e68dfce8d8.png",
@@ -29,12 +34,12 @@
     "static/media/about-wireframe.png": "/Yusuf_2503421_Assignment3/static/media/about-wireframe.60d99a01b5de8e8330ac.png",
     "static/media/sub-wireframe.png": "/Yusuf_2503421_Assignment3/static/media/sub-wireframe.f9637bd9273a7ace3885.png",
     "index.html": "/Yusuf_2503421_Assignment3/index.html",
-    "main.10d7d392.css.map": "/Yusuf_2503421_Assignment3/static/css/main.10d7d392.css.map",
-    "main.ac65af2c.js.map": "/Yusuf_2503421_Assignment3/static/js/main.ac65af2c.js.map",
+    "main.7f0a5397.css.map": "/Yusuf_2503421_Assignment3/static/css/main.7f0a5397.css.map",
+    "main.62f9dd78.js.map": "/Yusuf_2503421_Assignment3/static/js/main.62f9dd78.js.map",
     "453.22c0cc38.chunk.js.map": "/Yusuf_2503421_Assignment3/static/js/453.22c0cc38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10d7d392.css",
-    "static/js/main.ac65af2c.js"
+    "static/css/main.7f0a5397.css",
+    "static/js/main.62f9dd78.js"
   ]
 }
