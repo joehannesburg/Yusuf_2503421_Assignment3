@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './about.css'
 import Slider from '../../components/slider/slider';
-import Engine from '../../components/3d/engineModel'
+// import Engine from '../../components/3d/engineModel'
 
 
 //asset imports
