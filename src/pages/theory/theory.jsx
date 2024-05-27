@@ -28,17 +28,17 @@ function Theory() {
       </section>
       
       <section className="theory-boxes">
-    <Link to="/design/wireframes" className="theory-box">
+    <Link to="/theory/essay" className="theory-box">
         <img src={essayImg} alt="Essay" className="box-image" />
         <h2>Net Art Essay</h2>
         <p>Read through a thorough and investigative essay on net-art</p>
     </Link>
-    <Link to="/design/styleguide" className="theory-box">
+    <Link to="/theory/reflection" className="theory-box">
         <img src={reflImg} alt="Reflection" className="box-image" />
         <h2>Reflection On Creation of This Web-App</h2>
         <p>Gain an insight onto what the process was like of creating this web-app</p>
     </Link>
-    <Link to="/design/styleguide" className="theory-box">
+    <Link to="/theory/prep" className="theory-box">
         <img src={netImg} alt="Net-Art" className="box-image" />
         <h2>Preparatory Work For Net-Art</h2>
         <p>Discover my plans for the future net-art</p>

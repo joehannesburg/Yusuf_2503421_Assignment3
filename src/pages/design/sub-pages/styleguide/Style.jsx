@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import './styleguide.css';
 
 //Image Imports
-import Colour from '../../assets/colour.png';
-import Inspo1 from '../../assets/inspiration1.jpeg';
-import Inspo2 from '../../assets/inspiration2.jpeg';
+import Colour from '../../../../assets/colour.png';
+import Inspo1 from '../../../../assets/inspiration1.jpeg';
+import Inspo2 from '../../../../assets/inspiration2.jpeg';
 
-import ScrollTop from '../../components/scroll/ScrollTop';
+import ScrollTop from '../../../../components/scroll/ScrollTop';
 
 
 function Style() {

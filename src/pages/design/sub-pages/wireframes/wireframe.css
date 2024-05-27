@@ -1,9 +1,9 @@
-.styleguide-page {
+.wireframes-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../../assets/sky2.jpg') ;
+    background-image: url('../../../../assets/sky.jpg') ;
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -11,7 +11,7 @@
     padding: 2rem;
 }
 
-.styleguides-header {
+.wireframes-header {
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 5rem;
@@ -22,11 +22,11 @@
     max-width: 100vw;
 }
 
-.styleguides-header h1 {
+.wireframes-header h1 {
     font-size: 4rem;
 }
 
-.styleguides-content {
+.wireframes-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,30 +38,25 @@
 
 }
 
-.styleguide {
-    margin-bottom: 0rem;
+.wireframe {
+    margin-bottom: 2rem;
     width: 100%;
     text-align: center;
 }
 
-.styleguide p {
+.wireframe p {
     font-size: 1.4rem;
     margin: 1.5rem 0;
     text-align: center;
-    /* border-top: 4px solid #ffffff; */
-    /* padding-top: 2em; */
-    padding-left: 7em;
-    padding-right: 7em;
-    /* padding-bottom: 2em; */
+    border-top: 4px solid #ffffff;
+    padding-top: 2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 2em;
 
 }
 
-.styleguide h2{
-    font-size: 1.8rem;
-    text-decoration: underline;
-}
-
-.styleguide figure {
+.wireframe figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +64,7 @@
     margin: 0;
 }
 
-.styleguide img {
+.wireframe img {
     width: 100%;
     max-width: 50vw;
     height: auto;
@@ -77,10 +72,9 @@
     border-radius: 8px;
 }
 
-.styleguide figcaption {
+.wireframe figcaption {
     font-size: 1rem;
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .styleguide-button{

@@ -5,9 +5,13 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/about/About'
 import Design from './pages/design/Design'
-import Wireframe from './pages/wireframes/Wireframe'
-import Style from './pages/styleguide/Style'
+import Wireframe from './pages/design/sub-pages/wireframes/Wireframe'
+import Style from './pages/design/sub-pages/styleguide/Style'
 import Theory from './pages/theory/Theory'
+import Essay from './pages/theory/sub-pages/essay/Essay'
+import Reflection from './pages/theory/sub-pages/reflection/Reflection'
+import Prep from './pages/theory/sub-pages/prep/Prep';
+
 import Art from './pages/art/Art'
 
 //Components
@@ -35,7 +39,9 @@ function App() {
           
           <Route path="/design/wireframes" element={<Wireframe />} />
           <Route path="/design/styleguide" element={<Style />} />
-
+          <Route path="/theory/essay" element={<Essay />} />
+          <Route path="/theory/reflection" element={<Reflection />} />
+          <Route path="/theory/prep" element={<Prep />} />
         </Routes>
       </HashRouter>
         <Footer/>
