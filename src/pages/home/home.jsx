@@ -92,11 +92,7 @@ Ever since I was a kid, I've been captivated by the world of aviation. Growing u
 {/* link boxes */}
 <section className="link-boxes" data-aos = "zoom-out" >
     
-    <Link to="/about" className="link-box">
-        <img src={aboutImg} alt="About" className="box-image" />
-        <h2>About</h2>
-        <p>Discover the inspiration behind this aviation-themed website and explore more airplane-related content.</p>
-    </Link>
+    
     <Link to="/design" className="link-box">
         <img src={designImg} alt="Design" className="box-image" />
         <h2>Design</h2>
