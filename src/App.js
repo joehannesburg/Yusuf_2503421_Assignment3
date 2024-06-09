@@ -1,9 +1,8 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
 //Pages
 import Home from './pages/home/Home';
-import About from './pages/about/About'
 import Design from './pages/design/Design'
 import Wireframe from './pages/design/sub-pages/wireframes/Wireframe'
 import Style from './pages/design/sub-pages/styleguide/Style'
@@ -17,20 +16,33 @@ import Art from './pages/art/Art'
 //Components
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/Footer';
+import Load from './components/loadingscreen/Load';
 
 
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
+
+
   return (
     <React.Fragment>
     <HashRouter basename="/">
-        <Navbar />
         
+        {loading ? (
+          <Load />
+        ) : (
+          <>
+          <Navbar />
         <Routes>
           {/* Routing for main pages */}
     
           <Route path="/" element={<Home/>} />
-          <Route path="/about" element={<About/>} />
            <Route path="/design" element={<Design />} />
           <Route path="/theory" element={<Theory/>} />
           <Route path="/art" element={<Art/>} />  
@@ -43,8 +55,12 @@ function App() {
           <Route path="/theory/reflection" element={<Reflection />} />
           <Route path="/theory/prep" element={<Prep />} />
         </Routes>
-      </HashRouter>
         <Footer/>
+      
+        
+        </>
+        )}
+        </HashRouter>
     </React.Fragment>
   );
 }

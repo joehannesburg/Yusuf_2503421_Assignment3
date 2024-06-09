@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"');
+
+
 .home-page {
     width: 100%;
     position: relative;
@@ -7,59 +10,229 @@
     flex-direction: column;
     overflow: hidden;
     background-color: #235998;
+  
 }
+
+
 
 .overlay {
     position: absolute;
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     background: rgba(57, 124, 148, 0.4);
     top: 0;
     bottom: 0;
     z-index: 1;
     mix-blend-mode: hard-light;
+    
 }
 
 video {
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     object-fit: cover;
     border-bottom: 2px solid rgb(255, 255, 255);
+    
 }
 
 
 
 
 .planeImg {
-    width: 50%;
+    width: 70%;
     height: auto;
     /* object-fit: cover; */
     position: absolute;
-    top: 0;
+    top: 8vh;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
 }
 
-.welcomeTxt{
-    color: white;
-    font-size: 2rem;
+.art-button{
+    
+    position: absolute;
+    top: 86vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    background: rgb(197, 229, 255);
+    border: 0.2rem solid black;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    /* margin: 2.5rem; */
+    border-radius: 8px;
     text-align: center;
+    /* flex: 1 1 40%; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Caveat';
+    font-weight: 700;
+    color: black; 
+    display: block; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.art-button:hover{
+    /* transform: translate(0.01rem, 0.01rem); */
+    box-shadow: 0.5rem 0.4rem #000000, 0.5rem 0.5rem 0.5rem 0.1rem rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgb(159, 209, 255);
+}
+
+.anim{
+    position: absolute;
+    top: 92vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+
+.welcomeTxt{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    text-align: left;
     z-index: 2;
     position: relative;
-    left: 50;
-    width: 80vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     /* margin-top: 10vh; */
 }
+
+
+
+.info {
+    background-color: #537db1;
+    width: 100%;
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+    /* margin-bottom: 5vh; */
+ 
+  }
+
+  .anim2{
+    width: 20%;
+     position: relative;
+    top: 0vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+
+}
+
+  .info h1{
+    font-size: 2.7rem; 
+    /* text-decoration: underline; */
+    margin-top: 1vh;
+    font-family: 'Caveat';
+    font-optical-sizing: auto;
+    font-weight: 700;
+  }
+  
+  .info h2{
+    font-size: 2.7rem; 
+    font-family: 'Caveat';
+    font-optical-sizing: auto;
+    font-weight: 600;
+    /* text-decoration: underline; */
+    margin-top: 1vh;
+  }
+  
+  .info p{
+    font-size: 1.7rem; 
+    margin: 20px 0;
+    margin-bottom: 5vh;
+   background-color: #cacaca22;
+   padding: 15px;
+   border-radius: 25px;
+   border: 1px solid white;
+   
+
+   
+  }
+ 
+  
+
+
+  .did-you-know{
+    background-color: #537db1;
+    width: 100%;
+    color: rgb(255, 255, 255); 
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    /* margin-bottom: 5vh;
+    margin-top: 5vh; */
+  }
+
+  .duk-content{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: left;
+  }
+
+  .duk-video{
+    max-width: 20%; 
+  height: auto;
+  margin-right: 20px;
+  margin-left: 10vw;
+  border-bottom: 0;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+
+  }
+
+  .duk-text{
+    flex:1;
+    margin-left: 5vw;
+  }
+  .did-you-know h3{
+    font-size: 2rem; 
+    text-decoration: underline;
+    margin-top: 7vh;
+    font-family: 'Caveat';
+    font-optical-sizing: auto;
+    font-weight: 600;
+  }
+
+  
+  .did-you-know p{
+    font-size: 1.7rem; 
+    
+  }
+
+  .p-end{
+    margin-bottom: 7vh;
+  }
+  
+  .did-you-know span{
+    color: rgb(255, 255, 255); 
+    font-weight: bold;  
+  }
+
+  .slider-section{
+    /* background-color: #5c88b9; */
+    width: 100%;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+
 .link-boxes {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     /* margin-top: 2rem; Adjusted margin-top */
-    margin-bottom: 2rem;
-    width: 80%;
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+    /* width: 80%; */
     z-index: 100;
 }
 
@@ -96,10 +269,11 @@ video {
 }
 
 .link-box h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 1rem 0 0.5rem;
     color: #000000;
     text-decoration: underline;
+    font-family: 'Caveat';
 }
 
 .link-box p {
@@ -114,41 +288,71 @@ video {
     
 
     .planeImg {
-        width: 50%;
+        width: 70%;
     }
 
     video{
-        height: 50vh;
+        height: 100vh;
     }
 
     .overlay{
-        height: 50vh;
+        height: 100vh;
     }
 
     .link-box {
         flex: 1 1 calc(33% - 2rem);
     }
+
+    
+    
+      .duk-text{
+        flex:1;
+        margin-left: 2vw;
+      }
+      
 }
 
 @media (max-width: 1200px) {
     
 
     .planeImg {
-        width: 50%;
-        
+        width: 70%;
+        top: 20vh;
+    }
+
+    .art-button{
+        /* top: 70vh; */
+        font-size: 1.5rem;
+        padding: 0.7em;
     }
 
     video{
-        height: 50vh;
+        height: 100vh;
     }
 
     .overlay{
-        height: 50vh;
+        height: 100vh;
     }
 
+    .info h1{
+        font-size: 2.5rem; 
+      }
+      
+      .info h2{
+        font-size: 2.5rem; 
+      }
+      
+      .info p{
+        font-size: 1.5rem; 
+      }
+     
 
     .link-box {
         flex: 1 1 calc(33% - 2rem);
+    }
+
+    .anim2{
+        width: 35%;
     }
 }
 
@@ -157,13 +361,24 @@ video {
 
     .planeImg {
         width: 70%;
+        top: 20vh;
+    }
+
+    .art-button{
+        top: 70vh;
+        font-size: 1.3rem;
+        padding: 0.5em;
+    }
+
+    .anim{
+        top: 75vh;
     }
     video{
-        height: 40vh;
+        height: 80vh;
     }
 
     .overlay{
-        height: 40vh;
+        height: 80vh;
     }
 
     .welcomeTxt{
@@ -173,6 +388,35 @@ video {
     .link-box {
         flex: 1 1 calc(50% - 2rem);
     }
+
+    .duk-video{
+        max-width: 30%; 
+      height: auto;
+      margin-right: 20px;
+      margin-left: 10vw;
+      border-bottom: 0;
+    
+      }
+    
+      .duk-text{
+        flex:1;
+        margin-left: 3vw;
+      }
+      .did-you-know h3{
+        font-size: 1.8rem; 
+        text-decoration: underline;
+        margin-top: 7vh;
+      }
+    
+      
+      .did-you-know p{
+        font-size: 1.5rem; 
+        
+      }
+
+      .anim2{
+        width: 40%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -180,20 +424,69 @@ video {
 
     .planeImg {
         width: 80%;
-    }
-    video{
-        height: 35vh;
-    }
-    .overlay{
-        height: 35vh;
+        top: 10vh;
     }
 
-    .welcomeTxt{
-        font-size: 1.4rem;
+    .art-button{
+        top: 60vh;
+        font-size: 1.2rem;
+        padding: 0.5em;
     }
+
+    .anim{
+        top: 64vh;
+    }
+    video{
+        height: 70vh;
+    }
+    .overlay{
+        height: 70vh;
+    }
+
+    .info h1{
+        font-size: 2.2rem; 
+      }
+      
+      .info h2{
+        font-size: 2.2rem; 
+      }
+      
+      .info p{
+        font-size: 1.3rem; 
+      }
+     
 
     .link-box {
         flex: 1 1 100%;
+    }
+
+    .duk-video{
+        max-width: 35%; 
+      height: auto;
+      margin-right: 20px;
+      margin-left: 10vw;
+      border-bottom: 0;
+    
+      }
+    
+      .duk-text{
+        flex:1;
+        margin-left: 1vw;
+      }
+      .did-you-know h3{
+        font-size: 1.6rem; 
+        text-decoration: underline;
+        margin-top: 7vh;
+      }
+    
+      
+      .did-you-know p{
+        font-size: 1.3rem; 
+        
+      }
+
+      .anim2{
+        width: 45%;
     }
 }
 
@@ -202,21 +495,68 @@ video {
 
     .planeImg {
         width: 90%;
+        top: 10vh;
     }
 
+    .art-button{
+        top: 52vh;
+        font-size: 1rem;
+        padding: 0.3em;
+    }
+
+    .anim{
+        top: 54vh;
+    }
     video{
-        height: 30vh;
+        height: 60vh;
     }
     .overlay{
-        height: 30vh;
+        height: 60vh;
     }
 
-    .welcomeTxt{
-        font-size: 0.9rem;
-    }
+    .info h1{
+        font-size: 2rem; 
+      }
+      
+      .info h2{
+        font-size: 2rem; 
+      }
+      
+      .info p{
+        font-size: 1.1rem; 
+      }
 
     .link-box {
         flex: 1 1 100%;
+    }
+
+    .duk-video{
+        max-width: 38%; 
+      height: auto;
+      margin-right: 20px;
+      margin-left: 10vw;
+      border-bottom: 0;
+    
+      }
+    
+      .duk-text{
+        flex:1;
+        margin-left: 1vw;
+      }
+      .did-you-know h3{
+        font-size: 1.4rem; 
+        text-decoration: underline;
+        margin-top: 7vh;
+      }
+    
+      
+      .did-you-know p{
+        font-size: 1.1rem; 
+        
+      }
+
+      .anim2{
+        width: 50%;
     }
 }
 
@@ -225,18 +565,66 @@ video {
 
     .planeImg {
         width: 90%;
-    }
-    video{
-        height: 30vh;
-    }
-    .overlay{
-        height: 30vh;
+        top: 15vh;
     }
 
-    .welcomeTxt{
-        font-size: 0.7rem;
+    .art-button{
+        top: 40vh;
+        font-size: 0.8rem;
+        padding: 0.2em;
     }
+
+    .anim{
+        top: 43vh;
+    }
+    video{
+        height: 50vh;
+    }
+    .overlay{
+        height: 50vh;
+    }
+
+    .info h1{
+        font-size: 1.8rem; 
+      }
+      
+      .info h2{
+        font-size: 1.8rem; 
+      }
+      
+      .info p{
+        font-size: 0.9rem; 
+      }
+   
     .link-box {
         flex: 1 1 100%;
+    }
+
+    .duk-video{
+        max-width: 40%; 
+      height: auto;
+      margin-right: 20px;
+      margin-left: 10vw;
+      border-bottom: 0;
+    
+      }
+    
+      .duk-text{
+        flex:1;
+      }
+      .did-you-know h3{
+        font-size: 1.1rem; 
+        text-decoration: underline;
+        margin-top: 7vh;
+      }
+    
+      
+      .did-you-know p{
+        font-size: 0.8rem; 
+        
+      }
+
+      .anim2{
+        width: 55%;
     }
 }

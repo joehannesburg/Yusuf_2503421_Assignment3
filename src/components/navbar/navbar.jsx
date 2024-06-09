@@ -46,9 +46,7 @@ useEffect(() => {
         </li>
        </ul>
        <ul className='navbar-right'>
-                <li className='links'>
-                    <Link to="/about" className={location.pathname === '/about' ? 'active-link' : ''} onClick={handleLinkClick}>About</Link>
-                </li>
+              
                 <li className='links'>
                     <Link to="/design" className={location.pathname === '/design' ? 'active-link' : ''} onClick={handleLinkClick}>Design</Link>
                 </li>
