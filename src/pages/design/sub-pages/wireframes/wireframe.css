@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"');
+
+
 .wireframes-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../../../../assets/sky.jpg') ;
+    /* background-color:#235998 ; */
+    background-image: url('../../../../assets/sky3.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+   
     color: #ffffff;
     width: 100%;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .wireframes-header {
@@ -20,10 +29,12 @@
     padding: 1rem 0;
     width: 100%;
     max-width: 100vw;
+    box-sizing: border-box;
 }
 
 .wireframes-header h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: 'Caveat';
 }
 
 .wireframes-content {
@@ -31,10 +42,11 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 70vw;
-    background: rgba(35, 90, 152, 0.8);
+    max-width: 90vw;
+    background: rgba(35, 90, 152, 0.759);
     border: 0.2rem solid rgb(255, 255, 255);
     border-radius: 2rem;
+    box-sizing: border-box;
 
 }
 
@@ -42,16 +54,23 @@
     margin-bottom: 2rem;
     width: 100%;
     text-align: center;
+    box-sizing: border-box;
 }
-
+.wireframe h2{
+    font-size: 2rem;
+    font-family: 'Caveat';
+    text-decoration: underline;
+    border-top: 3px solid #ffffff;
+    padding-top: 20px;
+}
 .wireframe p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: 1.5rem 0;
-    text-align: center;
-    border-top: 4px solid #ffffff;
-    padding-top: 2em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
+    text-align: left;
+    
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-bottom: 2em;
 
 }
@@ -102,4 +121,126 @@
     box-shadow: 0.5rem 0.4rem #000000, 0.5rem 0.5rem 0.5rem 0.1rem rgb(255, 255, 255);
     cursor: pointer;
     background: rgb(159, 209, 255);
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 1500px) {
+    
+      
+}
+
+@media (max-width: 1200px) {
+    
+    .wireframes-header h1 {
+        font-size: 4.8rem;
+    }
+    
+    .wireframe h2{
+        font-size: 2rem;
+    }
+    .wireframe p {
+        font-size: 1.6rem;
+    }
+
+    .wireframe img {
+        width: 100%;
+        max-width: 60vw;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .wireframes-header h1 {
+        font-size: 4.5rem;
+    }
+    
+    .wireframe h2{
+        font-size: 1.8rem;
+    }
+    .wireframe p {
+        font-size: 1.4rem;
+    }
+
+    .wireframe img {
+        width: 100%;
+        max-width: 60vw;
+    }
+    
+    .styleguide-button{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .wireframes-header h1 {
+        font-size: 4.1rem;
+    }
+    
+    .wireframe h2{
+        font-size: 1.8rem;
+    }
+    .wireframe p {
+        font-size: 1.4rem;
+    }
+
+    .wireframe img {
+        width: 100%;
+        max-width: 65vw;
+    }
+
+    .styleguide-button{
+        font-size: 1.4rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+   
+    .wireframes-header h1 {
+        font-size: 3.7rem;
+    }
+    
+    .wireframe h2{
+        font-size: 1.8rem;
+    }
+    .wireframe p {
+        font-size: 1.4rem;
+    }
+
+    .wireframe img {
+        width: 100%;
+        max-width: 75vw;
+    }
+
+    .styleguide-button{
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+    
+}
+
+@media (max-width: 350px) {
+   
+    .wireframes-header h1 {
+        font-size: 3rem;
+    }
+    
+    .wireframe h2{
+        font-size: 1.4rem;
+    }
+    .wireframe p {
+        font-size: 1rem;
+    }
+
+    .wireframe img {
+        width: 100%;
+        max-width: 85vw;
+    }
+    
+    .styleguide-button{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
 }

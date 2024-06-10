@@ -51,8 +51,8 @@ function Prep() {
       </section>
       {/* Buttons to navigate to other page */}
       <section className='buttons'>
-      <Link to="/theory/reflection" className="styleguide-button">Reflection</Link>
-      <Link to="/theory/essay" className="styleguide-button">Net-Art Essay</Link>
+      <Link to="/theory/reflection" className="prep-button">Reflection</Link>
+      <Link to="/theory/essay" className="prep-button">Net-Art Essay</Link>
       </section>
       
 

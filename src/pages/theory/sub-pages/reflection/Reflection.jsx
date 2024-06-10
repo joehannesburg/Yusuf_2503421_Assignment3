@@ -48,8 +48,8 @@ function Reflection() {
       </section>
       {/* Buttons to navigate to other page */}
       <section className='buttons'>
-      <Link to="/theory/essay" className="styleguide-button">Net-Art Essay</Link>
-      <Link to="/theory/prep" className="styleguide-button">Net-Art Prep</Link>
+      <Link to="/theory/essay" className="refl-button">Net-Art Essay</Link>
+      <Link to="/theory/prep" className="refl-button">Net-Art Prep</Link>
       </section>
       
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"');
+
+
 .design-page {
     width: 100%;
     position: relative;
@@ -6,14 +9,15 @@
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
-    background-color: #235998;
+    background-color: 
+    #1f4d8c;
     
 
 }
 
 .overlay3 {
     position: absolute;
-    height: 50vh;
+    height: 35vh;
     width: 100%;
     background: rgba(57, 124, 148, 0.5);
     top: 0;
@@ -24,19 +28,17 @@
 
 .windowImg{
     width: 100%;
-    height: 50vh;
+    height: 35vh;
     object-fit: cover;
     border-bottom: 2px solid rgb(255, 255, 255);
 
 }
 
-.design-intro {
+.design-header {
     color: rgb(255, 255, 255);
-    /* font-size: 2rem; */
     text-align: center;
     width: 60vw;
-    margin-top: 10vh;
-    margin-bottom: 2vh;
+    margin-top: 8vh;
     top: 0;
     position: absolute;
     left: 50%;
@@ -44,23 +46,97 @@
     z-index: 2;
 }
 
-.design-intro h1{
-    font-size: 4.5rem;
+.design-header h1{
+    font-size: 5rem;
     margin-bottom: 0;
+    font-family: 'Caveat';
    
 }
 
-.design-intro p{
-    font-size: 1.8rem;
-    background: rgba(35, 90, 152, 0.8);
+.did-you-know2{
+  background-color: #537db1;
+  width: 100%;
+  color: rgb(255, 255, 255); 
+  border-top: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  /* margin-bottom: 5vh;
+  margin-top: 5vh; */
+}
+
+.duk-content2{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: left;
+}
+
+.duk-video2{
+  max-width: 20%; 
+height: auto;
+margin-right: 20px;
+margin-left: 15vw;
+border-bottom: 0;
+margin-top: 3vh;
+margin-bottom: 3vh;
+
+}
+
+.duk-text2{
+  flex:1;
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
+.did-you-know2 h3{
+  font-size: 1.8rem; 
+  text-decoration: underline;
+  margin-top: 3vh;
+  font-family: 'Caveat';
+  font-optical-sizing: auto;
+  font-weight: 600;
 }
 
 
+.did-you-know2 p{
+  font-size: 1.4rem; 
+  
+}
+
+.p-end{
+  margin-bottom: 3vh;
+}
+
+.did-you-know2 span{
+  color: rgb(255, 255, 255); 
+  font-weight: bold;  
+}
+
+.design-intro p{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Caveat';
+     font-optical-sizing: auto;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.anim3{
+  width: 25%;
+   position: relative;
+  top: 0vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+
+}
+
 .design-boxes {
     display: flex;
+    flex-wrap: wrap;
     /* flex-wrap: wrap; */
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-around;
     /* margin-top: 2rem; Adjusted margin-top */
     margin-bottom: 2rem;
     width: 100%;
@@ -75,7 +151,7 @@
     margin: 1rem;
     border-radius: 8px;
     text-align: center;
-    flex: 1 1 40%;
+    flex: 1 1 calc(25% - 2rem);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     text-decoration: none; 
@@ -114,49 +190,183 @@
 }
 
 @media only screen and (min-width: 1441px) {
-    .design-intro {
-      width: 50vw;
+    .design-header h1 {
+      font-size: 5rem;
     }
   
-    .design-box {
-      flex: 1 1 50%;
-    }
+    
   }
   
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .design-intro {
-      width: 60vw;
+    .design-header h1 {
+      font-size: 4rem;
+    }
+  
+    .design-intro p{
+        font-size: 2rem;
+        width: 80vw;
     }
   
     .design-box {
-      flex: 1 1 60%;
-    }
+      flex: 1 1 calc(33% - 2rem);
+  }
+
+  .anim3{
+    width: 30%;
+  }
+    
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .design-intro {
-      width: 70vw;
-    }
-
-    .design-intro p{
-        font-size: 1.5rem;
+    .design-header h1 {
+      font-size: 3.7rem;
     }
   
-    .design-box {
-      flex: 1 1 70%;
+    .design-intro p{
+        font-size: 1.8rem;
+        width: 80vw;
     }
+  
+    .duk-video2{
+      max-width: 25%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 10vw;
+    border-bottom: 0;
+  
+    }
+  
+    
+    .did-you-know2 h3{
+      font-size: 1.7rem; 
+      text-decoration: underline;
+      margin-top: 7vh;
+    }
+  
+    
+    .did-you-know2 p{
+      font-size: 1.3rem; 
+      
+    }
+  
+    .anim3{
+      width: 35%;
+    }
+    
   }
   
   @media only screen and (max-width: 768px) {
-    .design-intro {
-      width: 80vw;
+    .design-header h1 {
+      font-size: 3.5rem;
+    }
+  
+    .design-intro p{
+        font-size: 1.7rem;
+        width: 80vw;
+    }
+    .duk-video2{
+      max-width: 30%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 10vw;
+    border-bottom: 0;
+  
+    }
+  
+    
+    .did-you-know2 h3{
+      font-size: 1.5rem; 
+      text-decoration: underline;
+      margin-top: 7vh;
+    }
+  
+    
+    .did-you-know2 p{
+      font-size: 1.1rem; 
+      
+    }
+  
+    .anim3{
+      width: 40%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .design-header h1 {
+      font-size: 3.3rem;
+    }
+  
+    .design-intro p{
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+  
+    .duk-video2{
+      max-width: 35%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 10vw;
+    border-bottom: 0;
+  
+    }
+  
+    
+    .did-you-know2 h3{
+      font-size: 1.4rem; 
+      text-decoration: underline;
+      margin-top: 7vh;
+    }
+  
+    
+    .did-you-know2 p{
+      font-size: 1rem; 
+      
+    }
+
+    .anim3{
+      width: 45%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 350px) {
+    .design-header h1 {
+      font-size: 3.1rem;
     }
   
     .design-intro p{
         font-size: 1.3rem;
+        width: 80vw;
     }
-    .design-box {
-      flex: 1 1 80%;
+  
+    .duk-video2{
+      max-width: 45%; 
+    height: auto;
+    margin-right: 0;
+    margin-left: 3vw;
+    border-bottom: 0;
+  
+    }
+  
+    
+    .did-you-know2 h3{
+      font-size: 1.2rem; 
+      text-decoration: underline;
+      margin-top: 7vh;
+    }
+  
+    
+    .did-you-know2 p{
+      font-size: 0.8rem; 
+      
+    }
+
+    .duk-text2{
+      margin-left: 0;
+    }
+
+    .anim3{
+      width: 50%;
     }
   }
-  

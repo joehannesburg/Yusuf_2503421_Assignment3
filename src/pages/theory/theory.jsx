@@ -18,7 +18,7 @@ function Theory() {
     return (
 <main className="theory-page">
 <div className="overlay4"></div>
-<img className='windowImg' src={Wing} alt="window/png" />
+<img className='wingImg' src={Wing} alt="wing/png" />
 
  <section className="theory-intro">
         <h1>Theory</h1>

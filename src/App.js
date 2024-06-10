@@ -21,6 +21,7 @@ import Load from './components/loadingscreen/Load';
 
 
 function App() {
+  //sets loading page
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

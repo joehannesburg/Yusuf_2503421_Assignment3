@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"');
+
+
 .styleguide-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../../../../assets/sky2.jpg') ;
+    background-image: url('../../../../assets/sky3.jpg') ;
     background-size: cover;
     background-position: center;
     color: #ffffff;
     width: 100%;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .styleguides-header {
@@ -20,10 +26,14 @@
     padding: 1rem 0;
     width: 100vw;
     max-width: 100vw;
+    box-sizing: border-box;
+
 }
 
 .styleguides-header h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: 'Caveat';
+
 }
 
 .styleguides-content {
@@ -31,10 +41,11 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 70vw;
-    background: rgba(35, 90, 152, 0.8);
+    max-width: 90vw;
+    background: rgba(35, 90, 152, 0.759);
     border: 0.2rem solid rgb(255, 255, 255);
     border-radius: 2rem;
+    box-sizing: border-box;
 
 }
 
@@ -45,19 +56,19 @@
 }
 
 .styleguide p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: 1.5rem 0;
-    text-align: center;
-    /* border-top: 4px solid #ffffff; */
-    /* padding-top: 2em; */
-    padding-left: 3em;
-    padding-right: 3em;
+    text-align: left;
+   
+    padding-left: 4em;
+    padding-right: 4em;
     /* padding-bottom: 2em; */
 
 }
 
 .styleguide h2{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-family: 'Caveat';
     text-decoration: underline;
 }
 
@@ -67,6 +78,7 @@
     align-items: center;
     width: 100%;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .styleguide img {
@@ -83,7 +95,7 @@
     margin-bottom: 0.5rem;
 }
 
-.styleguide-button{
+.wireframe-button{
     
     background: rgb(218, 237, 255);
     border: 0.2rem solid black;
@@ -103,9 +115,130 @@
     transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effects */
 }
 
-.styleguide-button:hover{
+.wireframe-button:hover{
     transform: translate(-0.25rem, -0.25rem);
     box-shadow: 0.5rem 0.4rem #000000, 0.5rem 0.5rem 0.5rem 0.1rem rgb(255, 255, 255);
     cursor: pointer;
     background: rgb(159, 209, 255);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1500px) {
+    
+      
+}
+
+@media (max-width: 1200px) {
+    
+    .styleguides-header h1 {
+        font-size: 4.8rem;
+    }
+    
+    .styleguide h2{
+        font-size: 2rem;
+    }
+    .styleguide p {
+        font-size: 1.6rem;
+    }
+
+    .styleguide img {
+        width: 100%;
+        max-width: 60vw;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .styleguides-header h1 {
+        font-size: 4.5rem;
+    }
+    
+    .styleguide h2{
+        font-size: 1.8rem;
+    }
+    .styleguide p {
+        font-size: 1.4rem;
+    }
+
+    .styleguide img {
+        width: 100%;
+        max-width: 60vw;
+    }
+    
+    .wireframe-button{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .styleguides-header h1 {
+        font-size: 4.1rem;
+    }
+    
+    .styleguide h2{
+        font-size: 1.8rem;
+    }
+    .styleguide p {
+        font-size: 1.4rem;
+    }
+
+    .styleguide img {
+        width: 100%;
+        max-width: 65vw;
+    }
+
+    .wireframe-button{
+        font-size: 1.4rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+   
+    .styleguides-header h1 {
+        font-size: 3.7rem;
+    }
+    
+    .styleguide h2{
+        font-size: 1.8rem;
+    }
+    .styleguide p {
+        font-size: 1.4rem;
+    }
+
+    .styleguide img {
+        width: 100%;
+        max-width: 75vw;
+    }
+
+    .wireframe-button{
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+    
+}
+
+@media (max-width: 350px) {
+   
+    .styleguides-header h1 {
+        font-size: 3rem;
+    }
+    
+    .styleguide h2{
+        font-size: 1.4rem;
+    }
+    .styleguide p {
+        font-size: 1rem;
+    }
+
+    .styleguide img {
+        width: 100%;
+        max-width: 85vw;
+    }
+    
+    .wireframe-button{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
 }

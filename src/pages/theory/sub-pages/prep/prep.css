@@ -96,7 +96,7 @@
     justify-content: center;
     gap: 1rem;
 }
-.styleguide-button{
+.prep-button{
     
     background: rgb(218, 237, 255);
     border: 0.2rem solid black;
@@ -116,7 +116,7 @@
     transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effects */
 }
 
-.styleguide-button:hover{
+.prep-button:hover{
     transform: translate(-0.25rem, -0.25rem);
     box-shadow: 0.5rem 0.4rem #000000, 0.5rem 0.5rem 0.5rem 0.1rem rgb(255, 255, 255);
     cursor: pointer;

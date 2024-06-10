@@ -179,8 +179,8 @@ internet-net-art-how-the-world-wide-web-has-affected-the-way-we-make-art/ [Acces
       </section>
       {/* Buttons to navigate to other page */}
       <section className='buttons'>
-      <Link to="/theory/reflection" className="styleguide-button">Reflection</Link>
-      <Link to="/theory/prep" className="styleguide-button">Net-Art Prep</Link>
+      <Link to="/theory/reflection" className="theory-button">Reflection</Link>
+      <Link to="/theory/prep" className="theory-button">Net-Art Prep</Link>
       </section>
       
 
