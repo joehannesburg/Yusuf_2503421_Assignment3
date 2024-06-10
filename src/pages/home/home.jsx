@@ -10,7 +10,6 @@ import './home.css'
 //asset imports
 import video from '../../assets/clouds.mp4'
 import img from '../../assets/test.png'
-import aboutImg from '../../assets/about.png'; 
 import designImg from '../../assets/design.png'; 
 import theoryImg from '../../assets/theory.png'; 
 import artImg from '../../assets/art.png';
@@ -23,6 +22,7 @@ import Slider from '../../components/slider/slider';
 
 
 function Home() {
+    //to use the AOS animations
 useEffect(()=> {
     Aos.init({duration: 3000});
 }, [])
