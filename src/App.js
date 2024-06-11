@@ -8,8 +8,15 @@ import Wireframe from './pages/design/sub-pages/wireframes/Wireframe'
 import Style from './pages/design/sub-pages/styleguide/Style'
 import Theory from './pages/theory/Theory'
 import Essay from './pages/theory/sub-pages/essay/Essay'
-import Reflection from './pages/theory/sub-pages/reflection/Reflection'
+import Reflection1 from './pages/theory/sub-pages/reflection/Reflection1'
+import Reflection2 from './pages/theory/sub-pages/reflection/Reflection2'
+import Reflection3 from './pages/theory/sub-pages/reflection/Reflection3'
 import Prep from './pages/theory/sub-pages/prep/Prep';
+import Blog1 from './pages/theory/sub-pages/blogs/Blog1';
+import Blog2 from './pages/theory/sub-pages/blogs/Blog2';
+import Blog3 from './pages/theory/sub-pages/blogs/Blog3';
+
+
 
 import Art from './pages/art/Art'
 
@@ -53,8 +60,15 @@ function App() {
           <Route path="/design/wireframes" element={<Wireframe />} />
           <Route path="/design/styleguide" element={<Style />} />
           <Route path="/theory/essay" element={<Essay />} />
-          <Route path="/theory/reflection" element={<Reflection />} />
+          <Route path="/theory/reflection-net-art" element={<Reflection1 />} />
+          <Route path="/theory/reflection-web-initial" element={<Reflection2 />} />
+          <Route path="/theory/reflection-web-final" element={<Reflection3 />} />
           <Route path="/theory/prep" element={<Prep />} />
+          <Route path="/theory/blog-1" element={<Blog1 />} />
+          <Route path="/theory/blog-2" element={<Blog2 />} />
+          <Route path="/theory/blog-3" element={<Blog3 />} />
+
+
         </Routes>
         <Footer/>
       

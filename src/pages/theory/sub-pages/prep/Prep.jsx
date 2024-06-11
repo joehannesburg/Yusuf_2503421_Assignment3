@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 import './prep.css';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import ScrollTop from '../../../../components/scroll/ScrollTop';
 
@@ -10,14 +12,17 @@ import inspo4 from '../../../../assets/inspo4.jpeg';
 
 
 function Prep() {
+  useEffect(()=> {
+    Aos.init({duration: 2000});
+}, [])
   return (
     <main className="prep-page">
         
-      <header className="prep-header">
+      <header className="prep-header" data-aos = "zoom-in">
         <h1>Net-Art Preperation</h1>
       </header>
      <section className='prep-content'>
-     <article className="prep"> 
+     <article className="prep" data-aos = "zoom-in"> 
                     
                     <h2>Getting Ready:
 </h2>
@@ -38,7 +43,7 @@ function Prep() {
                     <p>Now, I won't lie—there are some hurdles to clear. We're talking about integrating real-time flight data, building a smooth and seamless canvas interface, and making sure everything runs like a dream across different browsers and devices. There's alot to test and figure out and I already anticipate running into issues, but hey, the fun is in figuring it out right? Right?</p>
                         </article>
 
-                        <article className="prep">
+                        <article className="prep" data-aos = "zoom-in">
           <h2>Inspiration:</h2>
           <figure>
             <img src={inspo3} alt="Inspiration Image 1" />
@@ -51,8 +56,8 @@ function Prep() {
       </section>
       {/* Buttons to navigate to other page */}
       <section className='buttons'>
-      <Link to="/theory/reflection" className="prep-button">Reflection</Link>
-      <Link to="/theory/essay" className="prep-button">Net-Art Essay</Link>
+      <Link to="/theory/essay" className="prep-button">Previous</Link>
+      <Link to="/theory/reflection-net-art" className="prep-button">Next</Link>
       </section>
       
 

@@ -7,7 +7,6 @@ import 'aos/dist/aos.css'
 
 //Image Imports
 import wireframe1 from '../../../../assets/home-wireframe.png';
-import wireframe2 from '../../../../assets/about-wireframe.png';
 import wireframe3 from '../../../../assets/design-wireframe.png';
 import wireframe4 from '../../../../assets/sub-wireframe.png';
 
@@ -30,7 +29,9 @@ function Wireframes() {
       <section className="wireframes-content">
         <article className="wireframe" data-aos = "zoom-in">
           <h2>Home Page</h2>
-          <p>Surprisingly, the home page actually took me the longest to do. From many failed attempts to finally getting something right. I was hesistant on whether I wanted to add more content to the home page or not. Eventually I settled on keeping it simple, with a header and image which would symbolize the theme best. Followed by some descriptive text and boxes which would take users to the other pages. In keeping with my theme, I made sure to keep all images aviation and travel related. I also made sure to include descriptions on each box to provide clarity to what each page holds. This page has a simple flow, with the main header image and background taking up 50 of the viewing height and width. Users would then skim through each box, and choose whichever of them they would like to visit.</p>
+          <p>Reworking the homepage actually took quite a bit of time. Initially, it was a struggle with many failed attempts before I finally got it right. I was hesitant about whether to add more content or keep it simple. This time, I decided to go all in and add more content to make the homepage more engaging and give viewers a broader sense of my theme and web app.
+
+To spice things up, I incorporated animations and added a button below the header image as a call-to-action. The new layout still starts with a header and image that symbolize the theme, but now it includes more descriptive text and interactive elements. I kept all images aviation and travel-related to stay true to the theme. Users can easily navigate through the additional content, and the new call-to-action button enhances the user experience, guiding them smoothly to the other sections of the site.</p>
           <figure>
             <img src={wireframe1} alt="Wireframe 1" />
             <figcaption>Home Page Wireframe</figcaption>
@@ -39,7 +40,9 @@ function Wireframes() {
         
         <article className="wireframe" data-aos = "zoom-in">
         <h2>Design & Theory Pages</h2>
-          <p>My design and theory pages both share the same design layout in the sense of a header container with an h1 text, above a background image. This is followed by cards/boxes below which will take users to my sub-pages to see my wireframes, styleguide and my theory content. I thought of adding in different layouts, but I also wished to maintain some consistency throughout my pages. Since I would be showing alot of info from these two pages, I thought that the boxes/cards would be best, as it would give an overview of what the info is about, and upon clicking, would take users to that sub-page.</p>
+          <p>In my updated version of the web app, these pages mostly stayed the same, with the exception of adding an animated svg below the header and some additional content below the boxes. I also moved the description text, which was below the header, to a new section and removed the background from it to make it more easily visible.
+
+My design and theory pages still share the same design layout, featuring a header container with an h1 text above a background image. Below this are the cards/boxes that direct users to my sub-pages for wireframes, the style guide, and theory content. While I considered different layouts, I decided to maintain consistency across my pages. Given the amount of information on these two pages, I felt that the boxes/cards were the best option. They provide an overview of the content and, upon clicking, take users to the relevant sub-page.</p>
           <figure>
             <img src={wireframe3} alt="Wireframe 3" />
             <figcaption>Design and Theory Pages Wireframe</figcaption>
@@ -47,7 +50,10 @@ function Wireframes() {
         </article>
         <article className="wireframe" data-aos = "zoom-in">
           <h2>Design & Theory Sub-Pages</h2>
-          <p>For the design and theory sub-pages, I chose to keep the design the simplest. There is alot of content to consume, so I did not want to distract users away from the content. The flow of these pages would be from top to bottom. I have also included a button at the bottom of the pages to direct users to the next or previous sub-pages. This would make it easier for them to navigate, instead of having to go to the main pages over and over. I also added in a background to the entire container so that the text would be easier to see and so that it doesn't clash with the background.</p>
+          <p>
+In my updated version, I made the width of the text container bigger for better readability. I also aligned the text to the left instead of center. Additionally, I incorporated scroll animations to enhance the user experience.
+
+For the design and theory sub-pages, I kept the design simple to avoid distracting users from the content. The flow of these pages is from top to bottom. I included a button at the bottom to direct users to the next or previous sub-pages, making navigation easier without returning to the main pages. To improve readability, I added a background to the entire container so the text is more visible and doesn't clash with the background.</p>
           <figure>
             <img src={wireframe4} alt="Wireframe 4" />
             <figcaption>Design and Theory Sub-Pages Wireframe</figcaption>

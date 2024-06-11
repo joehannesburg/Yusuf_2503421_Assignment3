@@ -1,20 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
-import './reflection.css';
+import './reflection2.css';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import ScrollTop from '../../../../components/scroll/ScrollTop';
 
 
-function Reflection() {
+function Reflection3() {
+  useEffect(()=> {
+    Aos.init({duration: 2000});
+}, [])
   return (
     <main className="reflection-page">
         
-      <header className="reflection-header">
-        <h1>Reflection on Web-App Creation</h1>
+      <header className="reflection-header" data-aos = "zoom-in">
+        <h1>Reflection on Final Web-App Creation</h1>
       </header>
      <section className='reflection-content'>
-     <article className="reflection"> 
+     <article className="reflection" data-aos = "zoom-in"> 
                     
                     <p>Creating this web app has been quite a journey, filled with highs and lows, much like a real flight. When I started, I knew I wanted to make something related to aviation. The vastness of the sky, the thrill of takeoff, the elegance of airplanes – it all fascinates me. But turning that passion into a functional and engaging web app? That was a whole different challenge.
 
@@ -48,8 +53,8 @@ function Reflection() {
       </section>
       {/* Buttons to navigate to other page */}
       <section className='buttons'>
-      <Link to="/theory/essay" className="refl-button">Net-Art Essay</Link>
-      <Link to="/theory/prep" className="refl-button">Net-Art Prep</Link>
+      <Link to="/theory/reflection-web-initial" className="refl-button">Previous</Link>
+      <Link to="/theory/blog-1" className="refl-button">Next</Link>
       </section>
       
 
@@ -58,4 +63,4 @@ function Reflection() {
   );
 }
 
-export default Reflection;
+export default Reflection3;

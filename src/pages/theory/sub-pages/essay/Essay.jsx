@@ -1,20 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 import './essay.css';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import ScrollTop from '../../../../components/scroll/ScrollTop';
 
 
 function Essay() {
+  useEffect(()=> {
+    Aos.init({duration: 2000});
+}, [])
   return (
     <main className="essay-page">
         
-      <header className="essay-header">
+      <header className="essay-header" data-aos = "zoom-in">
         <h1>Net-Art Essay</h1>
       </header>
      <section className='essay-content'>
-     <article className="essay"> 
+     <article className="essay" data-aos = "zoom-in"> 
                     
                     <h2>Introduction:</h2>
                     <p>Kyle McDonald’s net artwork, “Exhausting a Crowd” is a prime example of the marvels,
@@ -179,8 +184,7 @@ internet-net-art-how-the-world-wide-web-has-affected-the-way-we-make-art/ [Acces
       </section>
       {/* Buttons to navigate to other page */}
       <section className='buttons'>
-      <Link to="/theory/reflection" className="theory-button">Reflection</Link>
-      <Link to="/theory/prep" className="theory-button">Net-Art Prep</Link>
+      <Link to="/theory/prep" className="essay-button">Next</Link>
       </section>
       
 

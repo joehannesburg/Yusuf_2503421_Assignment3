@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"');
+
+
 .theory-page {
     width: 100%;
     position: relative;
@@ -13,7 +16,7 @@
 
 .overlay4 {
     position: absolute;
-    height: 50vh;
+    height: 35vh;
     width: 100%;
     background: rgba(57, 124, 148, 0.5);
     top: 0;
@@ -24,19 +27,27 @@
 
 .wingImg{
     width: 100%;
-    height: 50vh;
+    height: 35vh;
     object-fit: cover;
     border-bottom: 2px solid rgb(255, 255, 255);
 
 }
 
-.theory-intro {
+.anim4{
+    width: 15%;
+     position: relative;
+    top: 0vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+  
+  }
+
+.theory-header {
     color: rgb(255, 255, 255);
-    /* font-size: 2rem; */
     text-align: center;
     width: 60vw;
-    margin-top: 10vh;
-    margin-bottom: 2vh;
+    margin-top: 8vh;
     top: 0;
     position: absolute;
     left: 50%;
@@ -44,21 +55,34 @@
     z-index: 2;
 }
 
-.theory-intro h1{
-    font-size: 4.5rem;
+.theory-header h1{
+    font-size: 5rem;
     margin-bottom: 0;
+    font-family: 'Caveat';
    
 }
 
+
+
+
+
 .theory-intro p{
-    font-size: 1.8rem;
-    background: rgba(35, 90, 152, 0.8);
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Caveat';
+     font-optical-sizing: auto;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
 }
 
 
 .theory-boxes {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     /* margin-top: 2rem; Adjusted margin-top */
@@ -77,7 +101,7 @@
     text-align: center;
     flex: 1 1 40%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
+    max-width: 500px;
     text-decoration: none; 
     color: inherit; 
     display: block; 
@@ -112,3 +136,244 @@
     font-size: 1rem;
     color: #000000;
 }
+
+.did-you-know3{
+    background-color: #537db1;
+    width: 100%;
+    color: rgb(255, 255, 255); 
+    border-top: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    /* margin-bottom: 5vh;
+    margin-top: 5vh; */
+  }
+  
+  .duk-content3{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: left;
+  }
+  
+  .duk-video3{
+    max-width: 20%; 
+  height: auto;
+  margin-right: 20px;
+  margin-left: 5vw;
+  border-bottom: 0;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  
+  }
+  
+  .duk-text3{
+    flex:1;
+    margin-left: 1vw;
+    margin-right: 3vw;
+  }
+  .did-you-know3 h3{
+    font-size: 1.8rem; 
+    text-decoration: underline;
+    margin-top: 3vh;
+    font-family: 'Caveat';
+    font-optical-sizing: auto;
+    font-weight: 600;
+  }
+  
+  
+  .did-you-know3 p{
+    font-size: 1.4rem; 
+    margin-right: 2vw;
+    
+  }
+  
+  .p-end{
+    margin-bottom: 3vh;
+  }
+  
+  .did-you-know3 span{
+    color: rgb(255, 255, 255); 
+    font-weight: bold;  
+  }
+
+
+  @media only screen and (min-width: 1441px) {
+    .theory-header h1 {
+      font-size: 5rem;
+    }
+  
+    
+  }
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .theory-header h1 {
+      font-size: 4rem;
+    }
+  
+    .theory-intro p{
+        font-size: 2rem;
+        width: 90vw;
+    }
+  
+    .theory-box {
+      flex: 1 1 calc(33% - 2rem);
+  }
+
+  .anim4{
+    width: 20%;
+  }
+    
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .theory-header h1 {
+      font-size: 3.7rem;
+    }
+  
+    .theory-intro p{
+        font-size: 1.8rem;
+        width: 80vw;
+    }
+  
+    .duk-video3{
+      max-width: 25%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 5vw;
+    border-bottom: 0;
+  
+    }
+  
+    
+    .did-you-know3 h3{
+      font-size: 1.7rem; 
+      text-decoration: underline;
+      margin-top: 7vh;
+    }
+  
+    
+    .did-you-know3 p{
+      font-size: 1.3rem; 
+      
+    }
+  
+    .anim4{
+      width: 27%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .theory-header h1 {
+      font-size: 3.5rem;
+    }
+  
+    .theory-intro p{
+        font-size: 1.7rem;
+        width: 80vw;
+    }
+    .duk-video3{
+      max-width: 30%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 5vw;
+    border-bottom: 0;
+  
+    }
+  
+    
+    .did-you-know3 h3{
+      font-size: 1.5rem; 
+      text-decoration: underline;
+      margin-top: 7vh;
+    }
+  
+    
+    .did-you-know3 p{
+      font-size: 1.1rem; 
+      
+    }
+  
+    .anim4{
+      width: 30%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .theory-header h1 {
+      font-size: 3.3rem;
+    }
+  
+    .theory-intro p{
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+  
+    .duk-video3{
+      max-width: 35%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 5vw;
+    border-bottom: 0;
+  
+    }
+  
+    
+    .did-you-know3 h3{
+      font-size: 1.4rem; 
+      text-decoration: underline;
+      margin-top: 7vh;
+    }
+  
+    
+    .did-you-know3 p{
+      font-size: 1rem; 
+      
+    }
+
+    .anim4{
+      width: 35%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 350px) {
+    .theory-header h1 {
+      font-size: 3.1rem;
+    }
+  
+    .theory-intro p{
+        font-size: 1.3rem;
+        width: 80vw;
+    }
+  
+    .duk-video3{
+      max-width: 45%; 
+    height: auto;
+    margin-right: 0;
+    margin-left: 3vw;
+    border-bottom: 0;
+  
+    }
+  
+    
+    .did-you-know3 h3{
+      font-size: 1.2rem; 
+      text-decoration: underline;
+      margin-top: 7vh;
+    }
+  
+    
+    .did-you-know3 p{
+      font-size: 0.8rem; 
+      
+    }
+
+    .duk-text3{
+      margin-left: 0;
+    }
+
+    .anim4{
+      width: 40%;
+    }
+  }

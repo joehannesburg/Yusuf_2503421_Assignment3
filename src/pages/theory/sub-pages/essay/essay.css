@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"');
+
+
 .essay-page {
     display: flex;
     flex-direction: column;
@@ -8,7 +11,10 @@
     background-position: center;
     color: #ffffff;
     width: 100%;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .essay-header {
@@ -20,10 +26,12 @@
     padding: 1rem 0;
     width: 100%;
     max-width: 100vw;
+    box-sizing: border-box;
 }
 
 .essay-header h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: 'Caveat';
 }
 
 .essay-content {
@@ -31,70 +39,53 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 70vw;
-    background: rgba(35, 90, 152, 0.8);
+    max-width: 90vw;
+    background: rgba(35, 90, 152, 0.879);
     border: 0.2rem solid rgb(255, 255, 255);
     border-radius: 2rem;
-
+    box-sizing: border-box;
 }
 
 .essay {
     margin-bottom: 0rem;
     width: 100%;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .essay p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: 1.5rem 0;
-    text-align: center;
-    /* border-top: 4px solid #ffffff; */
-    /* padding-top: 2em; */
-    padding-left: 7em;
-    padding-right: 7em;
+    text-align: left;
+    
+    padding-left: 2em;
+    padding-right: 2em;
+    
     /* padding-bottom: 2em; */
 
 }
 
 .essay h2{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-family: 'Caveat';
     text-decoration: underline;
 }
 
 .essay h3{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-family: 'Caveat';
     font-style: italic;
     
 }
 
-.essay figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-}
 
-.essay img {
-    width: 100%;
-    max-width: 50vw;
-    height: auto;
-    border: 2px solid #ffffff;
-    border-radius: 8px;
-}
-
-.essay figcaption {
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
 
 .buttons{
      display: flex; 
     justify-content: center;
     gap: 1rem;
 }
-.theory-button{
+.essay-button{
     
     background: rgb(218, 237, 255);
     border: 0.2rem solid black;
@@ -114,9 +105,125 @@
     transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effects */
 }
 
-.theory-button:hover{
+.essay-button:hover{
     transform: translate(-0.25rem, -0.25rem);
     box-shadow: 0.5rem 0.4rem #000000, 0.5rem 0.5rem 0.5rem 0.1rem rgb(255, 255, 255);
     cursor: pointer;
     background: rgb(159, 209, 255);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1500px) {
+    
+      
+}
+
+@media (max-width: 1200px) {
+    
+    .essay-header h1 {
+        font-size: 4.8rem;
+    }
+    
+    .essay h2{
+        font-size: 2rem;
+    }
+    .essay p {
+        font-size: 1.6rem;
+    }
+
+   
+    
+}
+
+@media (max-width: 992px) {
+    .essay-header h1 {
+        font-size: 4.5rem;
+    }
+    
+    .essay h2{
+        font-size: 1.8rem;
+    }
+
+    .essay h3{
+        font-size: 1.6rem;
+    }
+    .essay p {
+        font-size: 1.4rem;
+    }
+
+    
+    
+    .essay-button{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .essay-header h1 {
+        font-size: 4.1rem;
+    }
+    
+    .essay h2{
+        font-size: 1.8rem;
+    }
+    .essay p {
+        font-size: 1.4rem;
+    }
+
+    
+
+    .essay-button{
+        font-size: 1.4rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+   
+    .essay-header h1 {
+        font-size: 3.7rem;
+    }
+    
+    .essay h2{
+        font-size: 1.8rem;
+    }
+    .essay p {
+        font-size: 1.4rem;
+    }
+
+    
+
+    .essay-button{
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+    
+}
+
+@media (max-width: 350px) {
+   
+    .essay-header h1 {
+        font-size: 3rem;
+    }
+    
+    .essay h2{
+        font-size: 1.4rem;
+    }
+
+    .essay h3{
+        font-size: 1.2rem;
+    }
+    .essay p {
+        font-size: 0.8rem;
+        padding-left: 1em;
+    padding-right: 1em;
+    }
+
+   
+    
+    .essay-button{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
 }

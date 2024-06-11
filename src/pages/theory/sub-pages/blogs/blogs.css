@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"');
 
-.prep-page {
+
+.blog-page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +17,7 @@
     box-sizing: border-box;
 }
 
-.prep-header {
+.blog-header {
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 5rem;
@@ -26,15 +27,14 @@
     width: 100%;
     max-width: 100vw;
     box-sizing: border-box;
-
 }
 
-.prep-header h1 {
+.blog-header h1 {
     font-size: 5rem;
     font-family: 'Caveat';
 }
 
-.prep-content {
+.blog-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,67 +46,46 @@
     box-sizing: border-box;
 }
 
-.prep {
+.blog {
     margin-bottom: 0rem;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
-
 }
 
-.prep p {
+.blog p {
     font-size: 1.6rem;
     margin: 1.5rem 0;
     text-align: left;
+    
     padding-left: 2em;
     padding-right: 2em;
+    
     /* padding-bottom: 2em; */
 
 }
 
-.prep h2{
+.blog h2{
     font-size: 2rem;
     font-family: 'Caveat';
     text-decoration: underline;
 }
 
-.prep h3{
+.blog h3{
     font-size: 1.8rem;
     font-family: 'Caveat';
     font-style: italic;
     
 }
 
-.prep figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-}
 
-.prep img {
-    width: 100%;
-    max-width: 50vw;
-    height: auto;
-    border: 2px solid #000000;
-    border-radius: 8px;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.prep figcaption {
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
 
 .buttons{
      display: flex; 
     justify-content: center;
     gap: 1rem;
 }
-.prep-button{
+.blog-button{
     
     background: rgb(218, 237, 255);
     border: 0.2rem solid black;
@@ -126,7 +105,7 @@
     transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effects */
 }
 
-.prep-button:hover{
+.blog-button:hover{
     transform: translate(-0.25rem, -0.25rem);
     box-shadow: 0.5rem 0.4rem #000000, 0.5rem 0.5rem 0.5rem 0.1rem rgb(255, 255, 255);
     cursor: pointer;
@@ -141,14 +120,14 @@
 
 @media (max-width: 1200px) {
     
-    .prep-header h1 {
+    .blog-header h1 {
         font-size: 4.8rem;
     }
     
-    .prep h2{
+    .blog h2{
         font-size: 2rem;
     }
-    .prep p {
+    .blog p {
         font-size: 1.6rem;
     }
 
@@ -157,44 +136,44 @@
 }
 
 @media (max-width: 992px) {
-    .prep-header h1 {
+    .blog-header h1 {
         font-size: 4.5rem;
     }
     
-    .prep h2{
+    .blog h2{
         font-size: 1.8rem;
     }
 
-    .prep h3{
+    .blog h3{
         font-size: 1.6rem;
     }
-    .prep p {
+    .blog p {
         font-size: 1.4rem;
     }
 
     
     
-    .prep-button{
+    .blog-button{
         font-size: 1.5rem;
     }
 
 }
 
 @media (max-width: 768px) {
-    .prep-header h1 {
+    .blog-header h1 {
         font-size: 4.1rem;
     }
     
-    .prep h2{
+    .blog h2{
         font-size: 1.8rem;
     }
-    .prep p {
+    .blog p {
         font-size: 1.4rem;
     }
 
     
 
-    .prep-button{
+    .blog-button{
         font-size: 1.4rem;
         padding: 0.8rem;
     }
@@ -202,20 +181,20 @@
 
 @media (max-width: 576px) {
    
-    .prep-header h1 {
+    .blog-header h1 {
         font-size: 3.7rem;
     }
     
-    .prep h2{
+    .blog h2{
         font-size: 1.8rem;
     }
-    .prep p {
+    .blog p {
         font-size: 1.4rem;
     }
 
     
 
-    .prep-button{
+    .blog-button{
         font-size: 1.2rem;
         padding: 0.6rem;
     }
@@ -224,18 +203,18 @@
 
 @media (max-width: 350px) {
    
-    .prep-header h1 {
+    .blog-header h1 {
         font-size: 3rem;
     }
     
-    .prep h2{
+    .blog h2{
         font-size: 1.4rem;
     }
 
-    .prep h3{
+    .blog h3{
         font-size: 1.2rem;
     }
-    .prep p {
+    .blog p {
         font-size: 0.8rem;
         padding-left: 1em;
     padding-right: 1em;
@@ -243,7 +222,7 @@
 
    
     
-    .prep-button{
+    .blog-button{
         font-size: 1rem;
         padding: 0.4rem;
     }
