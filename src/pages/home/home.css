@@ -247,10 +247,10 @@ video {
     flex: 1 1 calc(25% - 2rem);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Ensure text color is inherited */
-    display: block; /* Make the link a block element */
-    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effects */
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    transition: transform 0.2s, box-shadow 0.2s; 
 }
 
 .link-box:hover {

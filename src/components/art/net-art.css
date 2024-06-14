@@ -1,0 +1,71 @@
+.canvas-container {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 90vh; */
+  /* background: linear-gradient(to bottom, #87CEEB, #87CEFA); */
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+  z-index: 100;
+
+  }
+  
+  canvas {
+    border: 5px solid #ffffff;
+    background: transparent;
+    cursor: pointer;
+    width: 90vw;
+    height: 70vh;
+    position: relative;
+    margin-top: 5vh;
+
+  }
+  
+  .plane {
+    width: 50px;
+    height: auto;
+    display: none;
+    position: absolute;
+  }
+  
+  .web-art-button {
+    /* position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); */
+    z-index: 3;
+    background: rgb(197, 229, 255);
+    border: 0.2rem solid black;
+    border-radius: 0.4rem;
+    padding: 0.7rem;
+    /* margin: 2.5rem; */
+    border-radius: 8px;
+    text-align: center;
+    /* flex: 1 1 40%; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Caveat';
+    font-weight: 700;
+    color: black; 
+    display: block; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+  }
+
+  .web-art-button:hover{
+    /* transform: translate(0.01rem, 0.01rem); */
+    cursor: pointer;
+    background: rgb(159, 209, 255);
+}
+  
+  .controls {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }

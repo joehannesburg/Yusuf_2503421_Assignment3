@@ -83,17 +83,17 @@ function Theory() {
     <Link to="/theory/blog-1" className="theory-box">
         <img src={blogImg} alt="Net-Art" className="box-image" />
         <h2>Blog-1 </h2>
-        <p>Blog 1</p>
+        <p>Read through a short blog post on discovering the power of React</p>
     </Link>
     <Link to="/theory/blog-2" className="theory-box">
         <img src={blogImg2} alt="Net-Art" className="box-image" />
         <h2>Blog-2 </h2>
-        <p>Blog 2</p>
+        <p>Read through a short blog post on net-art and the evolution of web-based art</p>
     </Link>
     <Link to="/theory/blog-3" className="theory-box">
         <img src={blogImg3} alt="Net-Art" className="box-image" />
         <h2>Blog-3 </h2>
-        <p>Blog 3</p>
+        <p>Read through a short blog post on the web as a medium for art</p>
     </Link>
     </section>
 

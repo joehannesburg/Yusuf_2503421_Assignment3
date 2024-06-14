@@ -21,41 +21,21 @@ function Blog3() {
      <section className='blog-content'>
      <article className="blog" data-aos = "zoom-in"> 
                     
-                    <h2>Introduction:</h2>
-                    <p>Kyle McDonald’s net artwork, “Exhausting a Crowd” is a prime example of the marvels,
-capabilities, and affordances that net art provides through the medium of the internet. This
-interactive artwork intersects technology and human experiences, providing viewers with a
-thought-provoking, innovative, and exciting experience. In this essay, we will be diving
-further into this net artwork, analyzing it and examining how this specific net artwork, along
-with how net artwork in general employs the internet to create meaning, evoke emotions, and
-engage with audiences.</p>
-                   <h2>Internet/Web Art:</h2> 
-                    <p>Upon reading the term, one would infer that net/web art is the art that is constructed and
-portrayed through the internet. “Internet Art or Net Art: a form of art specifically conceived
-through the internet, on the internet, and for the internet” (Ricci, 2020). According to Chatel,
-network art was something that artists began exploring in the late 1970s (Chatel, 2019). The
-web has been around for a long time now, and as the capabilities of the web improve, so too
-do artists’ web art. Christou states that internet art is not just merely something created to
-look nice, but rather, it is created and used to “explore issues relevant to all aspects of life”
-(Christou, 2019). Art has often been used as a means of exploring issues and signifying and
-conveying a message or meaning, and internet art is the same. The advantage that Internet art
-has over normal contemporary, traditional art is that almost everyone who has access to the
-internet would be able to access the internet artworks. It is not restricted or limited to fancy
-museums and libraries, but rather just to the screen in front of you. Also, unlike traditional art
-which is non-interactive, static, and confined to physical spaces such as museums, internet art
-is interactive, dynamic, fun, and widely accessible to anyone with an internet connection.
-Another characteristic and what some would term an advantage of Internet Art over
-traditional art is the fact that some Internet art pieces are continuously evolving and ever-
-changing based on the input/interaction of the viewers. “Exhausting a Crowd” is an example
-of this, as it is continuously changing based on the inputs of the users.</p>
-                                       
-                            <h2>References:</h2>
-                            <p>Burke, C. (2018). THE INTERNET AS A NETWORK AND PLATFORM FOR ART IN THE
-PUBLIC SPHERE. [online] Available at: https://digicult.it/articles/web/internet-come-network-e-
-piattaforma-per-larte-nella-sfera-pubblica/ [Accessed 26 Apr. 2024].</p>
-                            <p>Chatel, M. (2019). Net Art, Post-internet Art, New Aesthetics: The Fundamentals of Art on the
-Internet. [online] Available at: https://medium.com/danae/net-art-post-internet-art-new-aesthetics-the-
-fundamentals-of-art-on-the-internet-55dcbd9d6a5 [Accessed 26 Apr. 2024].</p>
+                    <h2>The Web as a Medium for Art</h2>
+                    <p>Using the web as a medium for art is a fascinating concept. When the internet first started, it was mainly used for sharing information. But now, it's a vibrant space for creativity and artistic expression. Artists have found innovative ways to use the web to create immersive and interactive experiences that wouldn't be possible with traditional mediums.</p>
+                    <p>One thing I really appreciate about web-based art is its reach. Anyone with an internet connection can access it, making it far more inclusive than traditional art forms. This means that web-based art can reach a much wider audience, allowing for greater interaction and engagement. Imagine creating something in Johannesburg which could be viewed all over the world.
+
+</p>
+                    <p>However, using the web as a medium for art also comes with its challenges. It's hard to decide how much content to include and what to leave out. Sometimes, it feels like there are too many ideas and not enough time to explore them all. Coding everything, especially in JavaScript, can be tough, and my skills in JavaScript are still developing. This makes it challenging to bring some of my big ideas to life.
+
+</p>
+                    <p>Despite these challenges, I find web-based art incredibly exciting. It's a medium that's constantly evolving, and there's always something new to learn and explore. The possibilities are endless, and I can't wait to see how this field continues to grow and change in the future.
+
+
+
+
+
+</p>
                             
                       
                         </article>

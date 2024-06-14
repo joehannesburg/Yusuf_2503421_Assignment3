@@ -118,12 +118,12 @@
     flex: 1 1 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
     font-weight: bold;
     font-size: 2em;
     color: black; 
     display: block; 
-    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effects */
+    transition: transform 0.2s, box-shadow 0.2s; 
 }
 
 .prep-button:hover{

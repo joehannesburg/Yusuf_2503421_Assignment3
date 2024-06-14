@@ -22,7 +22,7 @@ function Style() {
     <main className="styleguide-page">
         
       <header className="styleguides-header">
-        <h1>StyleGuide</h1>
+        <h1>Style-Guide</h1>
       </header>
       <section className="styleguides-content">
         <article className="styleguide" data-aos ="zoom-in">
@@ -82,10 +82,10 @@ function Style() {
 </p>
           <p>-Made the entire site fully responsive for all form factors, ensuring a seamless experience on any device.
 
-
-
-
 </p>
+          <p>
+            -Added a custom '404 Page Not Found' page with a button to redirect them to the home page.
+          </p>
         
         
         

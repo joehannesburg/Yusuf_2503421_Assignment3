@@ -15,10 +15,8 @@ import Prep from './pages/theory/sub-pages/prep/Prep';
 import Blog1 from './pages/theory/sub-pages/blogs/Blog1';
 import Blog2 from './pages/theory/sub-pages/blogs/Blog2';
 import Blog3 from './pages/theory/sub-pages/blogs/Blog3';
-
-
-
-import Art from './pages/art/Art'
+import Art from './pages/art/Art';
+import Catch from './pages/404/Catch';
 
 //Components
 import Navbar from './components/navbar/navbar';
@@ -67,6 +65,9 @@ function App() {
           <Route path="/theory/blog-1" element={<Blog1 />} />
           <Route path="/theory/blog-2" element={<Blog2 />} />
           <Route path="/theory/blog-3" element={<Blog3 />} />
+
+          {/* catch 404 page */}
+          <Route path="*" element={<Catch/>} />
 
 
         </Routes>

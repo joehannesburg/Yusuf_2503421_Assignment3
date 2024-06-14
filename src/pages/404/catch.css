@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"');
+
+
+.catch-page {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #537db1;
+  
+}
+
+.anim6{
+    width: 40%;
+     position: relative;
+    top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+
+}
+
+.catch-text h1{
+    color: rgb(255, 108, 108);
+    font-size: 6rem;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-family: 'Caveat';
+}
+
+.catch-text h2{
+    color: rgb(255, 108, 108);
+    font-size: 3rem;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Caveat';
+}
+
+.catch-button{
+    
+    position: relative;
+    /* top: 70vh; */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    background: rgb(197, 229, 255);
+    border: 0.2rem solid black;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    /* margin: 2.5rem; */
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    /* flex: 1 1 40%; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 100px;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Caveat';
+    font-weight: 700;
+    color: black; 
+    display: block; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.catch-button:hover{
+    box-shadow: 0.5rem 0.4rem #000000, 0.5rem 0.5rem 0.5rem 0.1rem rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgb(159, 209, 255);
+}

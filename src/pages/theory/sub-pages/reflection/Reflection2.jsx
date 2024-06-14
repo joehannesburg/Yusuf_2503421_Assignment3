@@ -39,7 +39,7 @@ function Reflection2() {
 <p>Despite the setbacks, the process taught me a lot about perseverance and flexibility. Sometimes, things don’t work out the way you plan, and you have to adapt. The vision for the project evolved with each obstacle, becoming more refined and realistic. Each challenge, from the failed 3D model to the content balance and deployment struggles, helped shape the final product into something I'm proud of.
 
 </p>
-                       <p>In the end, creating this web app was like a flight itself – a bit turbulent at times, but ultimately rewarding. It’s a reflection of my passion for aviation and my growth as a developer, combining creativity with technical skills. This project is proof to the idea that persistence and adaptability are key, whether you’re soaring through the skies or coding late into the night.
+                       <p>In the end, creating this web app was like a flight itself – a bit turbulent at times, but ultimately rewarding. It’s a reflection of my passion for aviation and my growth as a developer, combining creativity with technical skills.
 
 
 

@@ -22,7 +22,7 @@
     margin: 2rem auto;
     margin-bottom: 10vh;
     position: relative;
-    overflow: hidden; /* Ensure content does not overflow the container */
+    overflow: hidden; 
     
   }
 
@@ -81,16 +81,16 @@
   }
   
   .arrow--left {
-    left: 10px; /* Adjusted for better positioning */
+    left: 10px; 
   }
   
   .arrow--right {
-    right: 10px; /* Adjusted for better positioning */
+    right: 10px; 
   }
   
   .dots-container {
     position: absolute;
-    bottom: 10px; /* Positioned at the bottom */
+    bottom: 10px; 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@
     margin: 0 3px;
     cursor: pointer;
     font-size: 15px;
-    color: #fff; /* Ensure dots are visible */
+    color: #fff; 
   }
   
 .dot.active {

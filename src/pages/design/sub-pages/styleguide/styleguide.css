@@ -107,12 +107,12 @@
     flex: 1 1 40%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 600px;
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
     font-weight: bold;
     font-size: 2em;
     color: black; 
-    display: block; /* Make the link a block element */
-    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effects */
+    display: block; 
+    transition: transform 0.2s, box-shadow 0.2s; 
 }
 
 .wireframe-button:hover{
