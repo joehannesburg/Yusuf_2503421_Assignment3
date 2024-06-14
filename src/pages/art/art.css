@@ -91,6 +91,13 @@
     width: 70vw;
   }
 
+  .art-instructions{
+    background-color: #cacaca22;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+  }
+
 
 .art-intro p{
     font-size: 1.4rem;
@@ -103,12 +110,128 @@
     left: 50%;
     transform: translateX(-50%);
     width: 60vw;
-    background-color: #cacaca22;
-   padding: 15px;
-   border-radius: 25px;
-   border: 1px solid white;
+   
 }
 
 .art-intro span{
     font-weight: bold;
 }
+
+
+
+@media only screen and (min-width: 1441px) {
+    .art-header h1 {
+      font-size: 5rem;
+    }
+  
+    
+  }
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .art-header h1 {
+      font-size: 4rem;
+    }
+
+    .art-intro h2{
+        font-size: 1.8rem;
+    }
+  
+    .art-intro p{
+        font-size: 1.4rem;
+    }
+  
+    
+
+  .anim7{
+    width: 15%;
+  }
+    
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .art-header h1 {
+      font-size: 3.7rem;
+    }
+
+    .art-intro h2{
+        font-size: 1.6rem;
+    }
+  
+    .art-intro p{
+        font-size: 1.3rem;
+    }
+  
+    
+  
+    .anim7{
+      width: 17%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .art-header h1 {
+      font-size: 3.5rem;
+    }
+
+    .art-intro h2{
+        font-size: 1.5rem;
+    }
+  
+    .art-intro p{
+        font-size: 1.2rem;
+    }
+    
+  
+    .anim7{
+      width: 19%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .art-header h1 {
+      font-size: 3.3rem;
+    }
+
+    .art-intro h2{
+        font-size: 1.3rem;
+        text-align: left;
+
+    }
+  
+  
+    .art-intro p{
+        font-size: 1.1rem;
+        width: 70vw;
+    }
+  
+    
+
+    .anim7{
+      width: 21%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 350px) {
+    .art-header h1 {
+      font-size: 3.1rem;
+    }
+
+    .art-intro h2{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+  
+  
+    .art-intro p{
+        font-size: 1rem;
+    }
+  
+   
+
+    .anim7{
+      width: 25%;
+    }
+  }

@@ -37,7 +37,8 @@ function Art() {
 </h2>
 
 <h3>Instructions:</h3>
-<p> <span>Click and Drag to Draw:</span>  Use your mouse or touch device to click and drag on the canvas, sketching out whatever comes to mind.</p>
+<article className='art-instructions'>
+  <p> <span>Click and Drag to Draw:</span>  Use your mouse or touch device to click and drag on the canvas, sketching out whatever comes to mind.</p>
 <p> <span>Animate:</span> Click on the "Animate" button to see your drawing come alive as a playful airplane traces your lines.</p>
  <p> <span>Change Background:</span> Click "Change Background" to switch up your canvas with different scenes, from world maps to skies full of possibilities.</p>
 <p> <span>Undo:</span> Made a mistake or changed your mind? Click "Undo" to remove your last stroke.
@@ -47,7 +48,8 @@ function Art() {
 
 
 
-</p>
+</p> </article>
+
 
       </section>
  <section data-aos = "fade-right">
