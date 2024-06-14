@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Yusuf_2503421_SPA/static/css/main.17039f34.css",
-    "main.js": "/Yusuf_2503421_SPA/static/js/main.eff1c560.js",
+    "main.css": "/Yusuf_2503421_SPA/static/css/main.0679de84.css",
+    "main.js": "/Yusuf_2503421_SPA/static/js/main.43d8bd43.js",
     "static/js/453.8399dda4.chunk.js": "/Yusuf_2503421_SPA/static/js/453.8399dda4.chunk.js",
     "static/media/clouds.mp4": "/Yusuf_2503421_SPA/static/media/clouds.b71910280a87780cdca5.mp4",
-    "static/media/art.jpg": "/Yusuf_2503421_SPA/static/media/art.a0203610a7041e6f4f94.jpg",
     "static/media/world3.mp4": "/Yusuf_2503421_SPA/static/media/world3.e355970cbd9abb4a2935.mp4",
     "static/media/load.mp4": "/Yusuf_2503421_SPA/static/media/load.37854b3044f68d902302.mp4",
+    "static/media/art-back1.png": "/Yusuf_2503421_SPA/static/media/art-back1.9de56dbc6a9a3f3f2ee8.png",
     "static/media/net-art.png": "/Yusuf_2503421_SPA/static/media/net-art.471f3a7aa98f9b86714b.png",
     "static/media/reflection1.png": "/Yusuf_2503421_SPA/static/media/reflection1.a0572e7fc803e4b2709f.png",
     "static/media/sky3.jpg": "/Yusuf_2503421_SPA/static/media/sky3.b518bebe5637cfcb89a8.jpg",
+    "static/media/clouds2.jpg": "/Yusuf_2503421_SPA/static/media/clouds2.990d31dfcefef5ffaf11.jpg",
     "static/media/blog2.png": "/Yusuf_2503421_SPA/static/media/blog2.c2d6b7235c09c120a6de.png",
     "static/media/net-art1.png": "/Yusuf_2503421_SPA/static/media/net-art1.699f12bf2ed8a9c2ff7b.png",
     "static/media/blog.png": "/Yusuf_2503421_SPA/static/media/blog.434fce44696b42d1adf9.png",
@@ -17,13 +18,16 @@
     "static/media/essay.png": "/Yusuf_2503421_SPA/static/media/essay.93fccebf089a1c465287.png",
     "static/media/blog1.png": "/Yusuf_2503421_SPA/static/media/blog1.d3c8d065ced6fe273be2.png",
     "static/media/slide4.png": "/Yusuf_2503421_SPA/static/media/slide4.1429f6b6fb0148363858.png",
+    "static/media/art-back4.png": "/Yusuf_2503421_SPA/static/media/art-back4.4866506b0a0619ead553.png",
     "static/media/slide1.png": "/Yusuf_2503421_SPA/static/media/slide1.2fff2f475bc0b0f355ee.png",
+    "static/media/art-back3.png": "/Yusuf_2503421_SPA/static/media/art-back3.31e3f8c7a611b42664e0.png",
     "static/media/slide6.png": "/Yusuf_2503421_SPA/static/media/slide6.cc24ca5379e68dfce8d8.png",
     "static/media/wings.jpg": "/Yusuf_2503421_SPA/static/media/wings.bc200bbb2be675d59c5d.jpg",
     "static/media/reflection.png": "/Yusuf_2503421_SPA/static/media/reflection.3b396d72c3b6881e987c.png",
     "static/media/slide5.png": "/Yusuf_2503421_SPA/static/media/slide5.60dd62a0b85d086a8662.png",
     "static/media/slide3.png": "/Yusuf_2503421_SPA/static/media/slide3.34b0a2db7b156942dd77.png",
     "static/media/world.mp4": "/Yusuf_2503421_SPA/static/media/world.d6f93ea0ca4e3e75de00.mp4",
+    "static/media/art-back2.png": "/Yusuf_2503421_SPA/static/media/art-back2.6b143a835fea543829b2.png",
     "static/media/styleguide.jpg": "/Yusuf_2503421_SPA/static/media/styleguide.f99102f1a330bc09919e.jpg",
     "static/media/test.png": "/Yusuf_2503421_SPA/static/media/test.996fbd6c8d3717534f3c.png",
     "static/media/world2.mp4": "/Yusuf_2503421_SPA/static/media/world2.a061e29525714f5f948c.mp4",
@@ -42,12 +46,12 @@
     "static/media/inspo4.jpeg": "/Yusuf_2503421_SPA/static/media/inspo4.e87196e39ee59cb0d9d3.jpeg",
     "static/media/sub-wireframe.png": "/Yusuf_2503421_SPA/static/media/sub-wireframe.7a0b6deb4f8e0ce66114.png",
     "index.html": "/Yusuf_2503421_SPA/index.html",
-    "main.17039f34.css.map": "/Yusuf_2503421_SPA/static/css/main.17039f34.css.map",
-    "main.eff1c560.js.map": "/Yusuf_2503421_SPA/static/js/main.eff1c560.js.map",
+    "main.0679de84.css.map": "/Yusuf_2503421_SPA/static/css/main.0679de84.css.map",
+    "main.43d8bd43.js.map": "/Yusuf_2503421_SPA/static/js/main.43d8bd43.js.map",
     "453.8399dda4.chunk.js.map": "/Yusuf_2503421_SPA/static/js/453.8399dda4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17039f34.css",
-    "static/js/main.eff1c560.js"
+    "static/css/main.0679de84.css",
+    "static/js/main.43d8bd43.js"
   ]
 }
