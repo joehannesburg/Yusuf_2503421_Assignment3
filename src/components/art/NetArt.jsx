@@ -7,6 +7,7 @@ import './net-art.css';
 // - https://youtu.be/6arkndScw7A?si=1EfXC93JYrWQylOe
 // - https://github.com/felerticia/canvas-react
 // - https://github.com/felerticia/drawing
+// - https://stackoverflow.com/questions/50999236/when-react-uses-canvas-drawing?rq=3
 
 
 // image imports
@@ -28,7 +29,7 @@ const NetArt = () => {
   const [strokeColor] = useState('rgba(0, 0, 0, 0.5)');
 
   // Set canvas dimensions and draw initial background image. The context aspect allows for smooth lines for the drawing
-  const setCanvasDimensions = useCallback(() => {
+  const setupCanvas = useCallback(() => {
     const canvas = canvasRef.current;
     if (canvas) {
       canvas.width = canvas.clientWidth;
@@ -49,10 +50,10 @@ const NetArt = () => {
 
   // sets the canvas dimensions initially and when window is resized
   useEffect(() => {
-    setCanvasDimensions();
-    window.addEventListener('resize', setCanvasDimensions);
-    return () => window.removeEventListener('resize', setCanvasDimensions);
-  }, [setCanvasDimensions]);
+    setupCanvas();
+    window.addEventListener('resize', setupCanvas);
+    return () => window.removeEventListener('resize', setupCanvas);
+  }, [setupCanvas]);
 
   // Get offset based on (mouse or touch)
   const getOffset = (event) => {
@@ -126,12 +127,7 @@ const NetArt = () => {
       plane.style.left = `${x + canvas.offsetLeft}px`;
       plane.style.top = `${y + canvas.offsetTop}px`;
   
-      // Calculate rotation angle based on line direction (Still glitchy, can't seem to get it right)
-      const angle = Math.atan2(directionY, directionX);
-      const angleDegrees = angle * (180 / Math.PI); 
-  
-      // Apply rotation to the plane image
-      plane.style.transform = `rotate(${angleDegrees}deg)`;
+      //Wanted the plane image to rotate so that it is straight on the line, making it seem like it is flying straight over, but could not get it to work
     }
   };
 
@@ -144,7 +140,7 @@ const NetArt = () => {
   const animateDrawing = useCallback(() => {
     if (!isAnimating || positions.length === 0) return;
     const context = canvasRef.current.getContext('2d');
-    context.strokeStyle = 'rgba(0, 0, 0, 0.9)';
+    context.strokeStyle = 'rgba(0, 0, 0, 0.9)'; //Changed the opacity here for when animation plays so that the stroke is darker and more visible
     context.lineWidth = 5;
   
     let i = 0; // index which represents the current stroke
@@ -168,7 +164,7 @@ const NetArt = () => {
       const start = currentStroke[j];
       const end = currentStroke[j + 1];
   
-      // Calculate direction vector
+      // Calculate direction 
       const directionX = end.x - start.x;
       const directionY = end.y - start.y;
   
@@ -260,7 +256,7 @@ const NetArt = () => {
   const changeBackgroundImage = () => {
     setBackgroundImageIndex((prevIndex) => {
       const nextIndex = (prevIndex + 1) % backgroundImages.length;
-      setPositions([]);
+      setPositions([]); //had an issue where the strokes from previous backgrounds were showing on other backgrounds. Added in the setPositions in an empty array to reset positions of strokes when background is changed
       redrawCanvas([]);
       return nextIndex;
     });
